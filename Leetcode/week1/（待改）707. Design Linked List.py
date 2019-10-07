@@ -1,3 +1,6 @@
+# https://images.plurk.com/69HQxEAr5YNQFsg0XH0AbI.png
+# get有錯，待改。
+
 class ListNode(object):
     def __init__(self, data):
         self.val = data
