@@ -1,6 +1,3 @@
-# https://images.plurk.com/69HQxEAr5YNQFsg0XH0AbI.png
-# get有錯，待改。
-
 class ListNode(object):
     def __init__(self, data):
         self.val = data
@@ -34,8 +31,11 @@ class MyLinkedList:
         Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
         """
         newhead = ListNode(val)
-        newhead.next = self.head
-        self.head = newhead
+        if self.len == 0:
+            self.head = newhead
+        else:
+            newhead.next = self.head
+            self.head = newhead
         self.len+=1
 
     def addAtTail(self, val: int) -> None:
@@ -62,12 +62,12 @@ class MyLinkedList:
         # 在index個節點插入→index <= length
         if index > self.len:
             return -1
-        elif index == 0:
-            addAtHead(val)
+        elif index == 0 or self.len == 0:
+            self.addAtHead(val)
         else:
             newNode = ListNode(val)
             A = self.head
-            while index >= 1:
+            while index > 1:
                 A = A.next
                 index-=1
             newNode.next = A.next
@@ -78,7 +78,7 @@ class MyLinkedList:
         """
         Delete the index-th node in the linked list, if the index is valid.
         """
-        if index >= self.len:
+        if index >= self.len or self.len==0 or index < 0:
             return -1
         elif self.len==1:
             self.head=None
