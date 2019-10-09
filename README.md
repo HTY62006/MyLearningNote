@@ -2,6 +2,10 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
+## 目錄
+1. Leetcode作業
+* Week2: [Linked List](https://github.com/HTY62006/MyLearningNote#week2-linked-list)
+
 ## Leetcode作業
 ### Week2: Linked List
 Leetcode練習題：707. Design Linked List
