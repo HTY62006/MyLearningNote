@@ -10,3 +10,8 @@ Linked list是由 **Node（節點）** 和 **Pointer** 組成，Node為儲存資
 * Node1：Node1裡頭的值為1，經由Pointer（接在1後方的空格）接續到Node2。
 * Node2：Node2裡頭的值為3，經由Pointer接續到Node3。
 * Node3：Node3裡頭的值為2，Pointer後沒有內容(NULL)，故Linked list結束。
+
+Linked list是不連續的，故可有效利用記憶體的空間。
+
+## Design Linked List
+1. 
