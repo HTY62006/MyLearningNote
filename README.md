@@ -5,6 +5,7 @@
 ## 目錄
 1. Leetcode作業
 * Week2: [Linked List](https://github.com/HTY62006/MyLearningNote#week2-linked-list)
+* Week3: [Stack and Queue](https://github.com/HTY62006/MyLearningNote#week3-stack-and-queue)
 
 ## Leetcode作業
 ### Week2: Linked List
