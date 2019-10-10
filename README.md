@@ -23,4 +23,14 @@ Linked list是由 **Node（節點）** 和 **Pointer** 組成，Node為儲存資
 Linked list是不連續的，故可有效利用記憶體的空間。
 
 #### Design Linked List
-1. 
+需求：
+1. `get(index)`：輸入**index**可取得Linked list中對應的值。
+2. `addAtHead(val)`：將輸入新的值作為第一個節點插入Linked list的首位。
+3. `addAtTail(val)`：將輸入新的值作為最後一個節點插入Linked list的尾部。
+4. `addAtIndex(index, val)`：在對應的**Index**插入輸入的值。
+    * 當index = Linked list長度，則將值插入Linked list尾部。
+    * 當index > Linked list長度，則不會插入Linked list。
+    * 當index < 0，則將值插入Linked list的首位。
+5. `deleteAtIndex(index)`：若**index**為有效的，則刪除Linked list中對應的值。
+
+我的作法：
