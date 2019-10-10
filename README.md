@@ -34,3 +34,9 @@ Linked list是不連續的，故可有效利用記憶體的空間。
 5. `deleteAtIndex(index)`：若**index**為有效的，則刪除Linked list中對應的值。
 
 我的作法：
+1. 利用`ListNode`這個class來創建新的節點。`MyLinkedList`中定義self.head=None（Linked list為空），self.len=0為Linked list長度，self.len是為了以便後續作為判斷用。
+2. `get(index)`是利用for迴圈將index對應的值抓取出來。
+3. `addAtHead(val)`則創建值為val的新節點，若Linked list為空（長度為0），新節點直接定義為self.head；若Linked list不為空，則將新節點連接至原先Linked list的首位(self.head)，再定義新節點為self.head。
+4. `addAtTail(val)`同樣創建值為val的新節點，將其插入原先Linked list的尾部。
+5. `addAtIndex(index, val)`是若Linked list為空或index=0時，直接以`addAtHead(val)`來處理；若index>0，則創建值為val的新節點，將其插入對應位置。
+6. `deleteAtIndex(index)`若長度為0，直接將Linked list化為空值；若index=0，則將該節點其後的節點直接設為self.head。其餘除不存在之情況，則將指定index對應的值刪除。
