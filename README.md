@@ -40,3 +40,11 @@ Linked list是不連續的，故可有效利用記憶體的空間。
 4. `addAtTail(val)`同樣創建值為val的新節點，將其插入原先Linked list的尾部。
 5. `addAtIndex(index, val)`是若Linked list為空或index=0時，直接以`addAtHead(val)`來處理；若index>0，則創建值為val的新節點，將其插入對應位置。
 6. `deleteAtIndex(index)`若長度為0，直接將Linked list化為空值；若index=0，則將該節點其後的節點直接設為self.head。其餘除不存在之情況，則將指定index對應的值刪除。
+
+[**回目錄**](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
+
+### Week3: Stack and Queue
+Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
+
+這是我練習的[完整程式碼(Stack)](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/155.%20Min%20Stack.py)、[完整程式碼(Queue)](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/232.%20Implement%20Queue%20using%20Stacks.py)
+#### 簡介
