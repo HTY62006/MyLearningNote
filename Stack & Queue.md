@@ -55,10 +55,18 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`top()`**：得到位於Top的元素。
   * **`getMin()`**：回傳最小值。
 ### 實作與想法
+利用List來實行。
+1. 先創建一個空的list。
+2. 
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ## Implement Queue using Stacks
 ### 需求
   * **`push(x)`**：自Queue的Back新增元素進入Queue。
-  * **`pop()`**： -- Removes the element from in front of queue.
-  * **`peek()`**：-- Get the front element.
-  * **`empty()`**： -- Return whether the queue is empty.
+  * **`pop()`**：刪除Queue中位於Front的元素。
+  * **`peek()`**：得到位於Front的元素。
+  * **`empty()`**：判斷Queue是否為空。
+### 實作與想法
+
+
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
