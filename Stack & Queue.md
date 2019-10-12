@@ -6,6 +6,8 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * 簡介
     * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#stack)
     * [Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#queue)
+    * [Min Stack]()
+    * [Implement Queue using Stacks]()
 ## 簡介
 ### Stack
 #### 為什麼要有Stack？
@@ -42,8 +44,9 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`grtFront`**：回傳Front所指向的資料。
   * **`getBack`**：回傳Back所指向的資料。
   * **`IsEmpty`**：確認Queue中是否有資料。
-  * `**getSize**`：回傳Queuek中的資料個數。
+  * **`getSize`**：回傳Queuek中的資料個數。
 
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ## Min Stack
+## Implement Queue using Stacks
