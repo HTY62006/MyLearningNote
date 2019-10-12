@@ -2,6 +2,10 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
+## 目錄
+1. [Leetcode作業](https://github.com/HTY62006/MyLearningNote#1-leetcode%E4%BD%9C%E6%A5%AD)
+2. [Leetcode自我練習](https://github.com/HTY62006/MyLearningNote#2-leetcode%E8%87%AA%E6%88%91%E7%B7%B4%E7%BF%92)
+3. [作業一(Quick Sort)](https://github.com/HTY62006/MyLearningNote#3-%E4%BD%9C%E6%A5%ADquick-sort)
 ## 1. Leetcode作業
    * Week2: [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Linked%20list.md)
    * Week3: [Stack and Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md)
@@ -16,5 +20,5 @@
    * [231. Power of Two](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/231.%20Power%20of%20Two.py)
    * [326. Power of Three](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/326.%20Power%20of%20Three.py)
    * [342. Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/342.%20Power%20of%20Four.py)
-## 3. 作業(Quick sort)
+## 3. 作業一(Quick Sort)
    * Quick Sort(10/18 AM9:00 前繳交)
