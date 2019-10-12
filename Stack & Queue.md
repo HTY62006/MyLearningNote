@@ -23,4 +23,5 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`Top`**：回傳「最上方」（最新）的資料。
   * **`IsEmpty`**：確認Stack中是否有資料。
   * **`getSize`**：回傳Stack中的資料個數。
+⬆
 ### Queue
