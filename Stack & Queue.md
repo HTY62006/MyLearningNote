@@ -4,7 +4,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
 這是我練習的[完整程式碼(Stack)](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/155.%20Min%20Stack.py)、[完整程式碼(Queue)](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/232.%20Implement%20Queue%20using%20Stacks.py)
 ## 目錄
   * 簡介
-    * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20&%20Queue.md#stack)
+    * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#stack)
     * [Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#queue)
 ## 簡介
 ### Stack
