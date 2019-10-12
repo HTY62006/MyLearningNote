@@ -3,8 +3,8 @@
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
 ## 1. Leetcode作業
-      * Week2: [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Linked%20list.md)
-      * Week3: [Stack and Queue](https://github.com/HTY62006/MyLearningNote#week3-stack-and-queue)
+   * Week2: [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Linked%20list.md)
+   * Week3: [Stack and Queue](https://github.com/HTY62006/MyLearningNote#week3-stack-and-queue)
 
 ### Week3: Stack and Queue
 Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
