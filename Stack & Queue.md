@@ -7,7 +7,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
     * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#stack)
     * [Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#queue)
     * [Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20&%20Queue.md#min-stack)
-    * [Implement Queue using Stacks]()
+    * [Implement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20&%20Queue.md#implement-queue-using-stacks)
 ## 簡介
 ### Stack
 #### 為什麼要有Stack？
