@@ -1,3 +1,5 @@
+# Leetcode跑出結果有誤
+# jupyter notebook跑出結果無誤
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
