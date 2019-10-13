@@ -9,7 +9,7 @@
 ## 1. Leetcode作業
    * Week2: [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Linked%20list.md)
    * Week3: [Stack and Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md)
-   * Week4: [Set Mismatch]、[InsertionSort]
+   * Week4: [Set Mismatch]、[Insertion Sort]
 ## 2. Leetcode自我練習
    * [1. Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/1.%20Two%20Sum.py)
    * [7. Reverse Integer](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/7.%20Reverse%20Integer.py)
