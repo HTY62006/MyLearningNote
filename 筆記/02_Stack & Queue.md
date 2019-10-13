@@ -7,10 +7,10 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
 
 ## 目錄
   * 簡介
-    * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#stack)
-    * [Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#queue)
-  * [Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20&%20Queue.md#min-stack)
-  * [Implement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20&%20Queue.md#implement-queue-using-stacks)
+    * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#stack)
+    * [Queue](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#queue)
+  * [Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#min-stack)
+  * [Implement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#implement-queue-using-stacks)
 ## 簡介
 ### Stack
 #### 為什麼要有Stack？
@@ -29,7 +29,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`IsEmpty`**：確認Stack中是否有資料。
   * **`getSize`**：回傳Stack中的資料個數。
 
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ### Queue
 #### 為什麼要有Queue？
@@ -49,7 +49,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`IsEmpty`**：確認Queue中是否有資料。
   * **`getSize`**：回傳Queuek中的資料個數。
 
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ## Min Stack
 ### 需求
@@ -86,7 +86,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
        return min(self.item)
    ```
    
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ## Implement Queue using Stacks
 ### 需求
@@ -122,5 +122,5 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
        return len(self.item) == 0
    ```
    
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md#%E7%9B%AE%E9%8C%84)
 ## [回首頁](https://github.com/HTY62006/MyLearningNote)
