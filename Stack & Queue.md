@@ -2,6 +2,9 @@
 Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
 
 這是我練習的[完整程式碼(Stack)](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/155.%20Min%20Stack.py)、[完整程式碼(Queue)](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/232.%20Implement%20Queue%20using%20Stacks.py)
+
+## [回首頁](https://github.com/HTY62006/MyLearningNote)
+
 ## 目錄
   * 簡介
     * [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#stack)
@@ -57,7 +60,31 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
 ### 實作與想法
 利用List來實行。
 1. 先創建一個空的list。
-2. 
+   ```Python
+   def __init__(self):
+       self.items = []
+   ```
+2. Push(x)：新增元素進入Stack（位於Top），利用`.append()`將元素新增入list形成Stack。
+   ★如果list=[1,2,3]，那麼作為Stack的實際排序由上至下其實是3→2→1★
+   ```Python
+   def push(self, x: int) -> None:
+       self.items.append(x)
+   ```
+3. pop()：因Stack的實際排序是list的相反，故在移除位於Top的元素時，需移除位於list中最後一位的值（利用`.pop()`）。
+   ```Python
+   def pop(self) -> None:
+       self.item.pop()
+   ```
+4. top()：Top需取list中最後一位，故回傳list的[-1]項。
+   ```Python
+   def top(self) -> int:
+       return self.item[-1]
+   ```
+5. getMin()：回傳最小值，使用`min()`可得到最小值。
+   ```Python
+   def getMin(self) -> int:
+       return min(self.item)
+   ```
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ## Implement Queue using Stacks
@@ -67,6 +94,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`peek()`**：得到位於Front的元素。
   * **`empty()`**：判斷Queue是否為空。
 ### 實作與想法
-
-
+```Python
+print(n)
+```
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
