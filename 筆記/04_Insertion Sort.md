@@ -4,6 +4,7 @@ Leetcode練習題：147. Insertion Sort List
 這是我練習的[完整程式碼]
 ## [回首頁](https://github.com/HTY62006/MyLearningNote)
 ## 目錄
-   * 簡介
-   * 實作與想法
+   * [簡介](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%B0%A1%E4%BB%8B)
+   * [Insertion Sort List]()
 ## 簡介
+## Insertion Sort List
