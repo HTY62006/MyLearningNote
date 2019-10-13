@@ -85,6 +85,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
    def getMin(self) -> int:
        return min(self.item)
    ```
+   
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
 
 ## Implement Queue using Stacks
@@ -94,7 +95,32 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
   * **`peek()`**：得到位於Front的元素。
   * **`empty()`**：判斷Queue是否為空。
 ### 實作與想法
-```Python
-print(n)
-```
+利用List來實行。
+1. 先創建一個空的list。
+   ```Python
+   def __init__(self):
+       self.items = []
+   ```
+2. push(x)：自Back新增元素進入Queue，利用`.append()`新增。
+   ```Python
+   def push(self, x: int) -> None:
+       self.items.append(x)
+   ```
+3. pop()：移除位於Front的元素，利用`pop()`將位於list的[0]項（Queue的Front）刪除。
+   ```Python
+   def pop(self) -> int:
+       return self.items.pop(0)
+   ```
+4. peek()：回傳位於Front的元素，故取list的[0]項。
+   ```Python
+   def peek(self) -> int:
+       return self.item[0]
+   ```
+5. empty()：如果Queue為空，意味著長度為0，故當長度為0時回傳。
+   ```Python
+   def empty(self) -> bool:
+       return len(self.item) == 0
+   ```
+   
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md#%E7%9B%AE%E9%8C%84)
+## [回首頁](https://github.com/HTY62006/MyLearningNote)
