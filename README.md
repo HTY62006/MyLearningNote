@@ -14,6 +14,9 @@
    * Week4: 
      * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Set%20Mismatch.md)
      * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/Insertion%20Sort.md)
+
+### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
+
 ## 2. Leetcode自我練習
    * [1. Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/1.%20Two%20Sum.py)
    * [7. Reverse Integer](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/7.%20Reverse%20Integer.py)
@@ -24,5 +27,10 @@
    * [231. Power of Two](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/231.%20Power%20of%20Two.py)
    * [326. Power of Three](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/326.%20Power%20of%20Three.py)
    * [342. Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/342.%20Power%20of%20Four.py)
+
+### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
+
 ## 3. 作業一(Quick Sort)
    * Quick Sort(10/18 AM9:00 前繳交)
+
+### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
