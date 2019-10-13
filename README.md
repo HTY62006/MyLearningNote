@@ -8,12 +8,12 @@
 3. [作業一(Quick Sort)](https://github.com/HTY62006/MyLearningNote#3-%E4%BD%9C%E6%A5%AD%E4%B8%80quick-sort)
 ## 1. Leetcode作業
    * Week2: 
-     * [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Linked%20list.md)
+     * [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/01_Linked%20list.md)
    * Week3: 
-     * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/blob/master/Stack%20%26%20Queue.md)
+     * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md)
    * Week4: 
-     * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Set%20Mismatch.md)
-     * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/Insertion%20Sort.md)
+     * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/03_Set%20Mismatch.md)
+     * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md)
 
 #### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
 
