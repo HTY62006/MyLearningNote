@@ -32,4 +32,4 @@ Linked list是不連續的，故可有效利用記憶體的空間。
 5. `addAtIndex(index, val)`是若Linked list為空或index=0時，直接以`addAtHead(val)`來處理；若index>0，則創建值為val的新節點，將其插入對應位置。
 6. `deleteAtIndex(index)`若長度為0，直接將Linked list化為空值；若index=0，則將該節點其後的節點直接設為self.head。其餘除不存在之情況，則將指定index對應的值刪除。
 
-[**回首頁**](https://github.com/HTY62006/MyLearningNote)
+## [回首頁](https://github.com/HTY62006/MyLearningNote)
