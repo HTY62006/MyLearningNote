@@ -106,7 +106,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
    def push(self, x: int) -> None:
        self.items.append(x)
    ```
-3. pop()：移除位於Front的元素，利用`pop()`將位於list的[0]項（Queue的Front）刪除。
+3. pop()：移除位於Front的元素，利用`.pop()`將位於list的[0]項（Queue的Front）刪除。
    ```Python
    def pop(self) -> int:
        return self.items.pop(0)
