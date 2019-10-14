@@ -47,11 +47,11 @@ Insertion Sort（插入排序法）：
    * 先設定要進行測試的元素，及其餘未排序資料新的head。
    * 如果測試的元素**小於等於**已排序的元素，則已排序值往右移。
    > 第一輪：test值 = 2，head值 = 1，out值 = 4。因2<4，可得到out為2->4。
-   > 第二輪：test值 = 1，head值 = 3，out為2->4。因1<2<4，可得到out為1->2->4。
-   > 第三輪：test值 = 3，Linke list已到底，head = None，out為1->2->4。因測試元素既不小於已排序，也不大於後方的元素（已經是最後一次排序）。
-   >> 令n=out（已排序元素），當n.next≠後方元素且n.next的值<測試元素(test)的值時，n = n.next（結果：n的值為2）
-   >> n.next為4，test為3，test.next = n.next（3->4）
-   >> 
+   >> 第二輪：test值 = 1，head值 = 3，out為2->4。因1<2<4，可得到out為1->2->4。
+   >>> 第三輪：test值 = 3，Linke list已到底，head = None，out為1->2->4。因測試元素既不小於已排序，也不大於後方的元素（已經是最後一次排序）。
+   >>>> 令n=out（已排序元素），當n.next≠後方元素且n.next的值<測試元素(test)的值時，n = n.next（結果：n的值為2）
+   >>>>> n.next為4，test為3，test.next = n.next（3->4）
+   >>>>>> test(3->4)，n(1->2)，n.next = test（1->2->3->4）
      ```Python
      while head != None:
             test = head # 測試值
