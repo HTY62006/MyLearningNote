@@ -5,7 +5,7 @@
 ## 目錄
 1. [Leetcode作業](https://github.com/HTY62006/MyLearningNote#1-leetcode%E4%BD%9C%E6%A5%AD)
 2. [Leetcode自我練習](https://github.com/HTY62006/MyLearningNote#2-leetcode%E8%87%AA%E6%88%91%E7%B7%B4%E7%BF%92)
-3. [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote#3-%E4%BD%9C%E6%A5%AD%E4%B8%80quick-sort)
+3. [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/blob/master/README.md#3-%E4%BD%9C%E6%A5%AD%E4%B8%80quick-sort)
 ## 1. Leetcode作業
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/01_Linked%20list.md)
