@@ -69,4 +69,11 @@ Insertion Sort（插入排序法）：
                 test.next = n.next
                 n.next = test
      ```
+3. 將Linked list尾部設為None，並回傳結果out。
+   > t.val = 4，t.next = None
+   >> 1->2->3->4->None，Linked list結束。out為經insertion sort排序後的結果。
+   ```Python
+   t.next = None
+   return out
+   ```
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%9B%AE%E9%8C%84)
