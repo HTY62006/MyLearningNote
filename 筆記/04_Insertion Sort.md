@@ -79,5 +79,6 @@ Insertion Sort（插入排序法）：
    ```
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%9B%AE%E9%8C%84)
 ## 解題說明圖(Insertion Sort List)
-!
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/IS02.png)
+[點此可看大圖](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/IS02.png)
 ## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%9B%AE%E9%8C%84)
