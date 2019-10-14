@@ -31,6 +31,6 @@
 #### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
 
 ## 3. 作業一(Quick Sort)
-   * Quick Sort(10/18 AM9:00 前繳交)
+   * [Quick Sort](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/Quick%20Sort.md)(10/18 AM9:00 前繳交)
 
 #### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
