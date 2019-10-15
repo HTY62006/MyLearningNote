@@ -65,7 +65,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
        self.items = []
    ```
 2. Push(x)：新增元素進入Stack（位於Top），利用`.append()`將元素新增入list形成Stack。
-   ★如果list=[1,2,3]，那麼作為Stack的實際排序由上至下其實是3→2→1★
+   <★如果list=[1,2,3]，那麼作為Stack的實際排序由上至下其實是3→2→1★
    ```Python
    def push(self, x: int) -> None:
        self.items.append(x)
