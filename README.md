@@ -32,8 +32,5 @@
 
 ## 3. 作業一：Quick Sort
    * Quick Sort(10/18 AM9:00 前繳交)
-     > 因github載入ipynb檔案有時會過慢或失敗，故附上使用jupyter nbviewer另外開啟的連結。
      * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
-     * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
-
 #### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
