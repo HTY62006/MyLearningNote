@@ -2,6 +2,7 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
+## [本週作業](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
 ## 目錄
 1. [Leetcode作業](https://github.com/HTY62006/MyLearningNote#1-leetcode%E4%BD%9C%E6%A5%AD)
 2. [Leetcode自我練習](https://github.com/HTY62006/MyLearningNote#2-leetcode%E8%87%AA%E6%88%91%E7%B7%B4%E7%BF%92)
