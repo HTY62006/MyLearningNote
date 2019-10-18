@@ -14,7 +14,7 @@
      * [Set and Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Week4)
        * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/645.%20Set%20Mismatch.py)
        * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
-   * Week5:*國慶放假*
+   * Week5: *國慶放假*
      * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1:%20Quick%20Sort) ←**本週作業**
        * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
        * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)(Github無法載入時可用jupyter nbviewer看)
