@@ -4,13 +4,16 @@
 # 資料結構與演算法
 ## 每週進度
    * Week2: 
-     * [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/01_Linked%20list.md)
+     * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week2)
+       * [Design Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Week2/707.%20Design%20Linked%20List.py)
    * Week3: 
      * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Week3)
+       * [Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Week3/155.%20Min%20Stack.py)
+       * [Implement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/blob/master/Week3/232.%20Implement%20Queue%20using%20Stacks.py)
    * Week4:
      * [Set and Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Week4)
        * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/645.%20Set%20Mismatch.py)
-       * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md)
+       * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
    * Week5:
      * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1:%20Quick%20Sort) ←**本週作業**
        * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
