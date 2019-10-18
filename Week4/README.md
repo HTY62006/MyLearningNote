@@ -1,15 +1,14 @@
 # Set and Insertion Sort
 ## 目錄
    * [SetMismatch](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%B0%A1%E4%BB%8B)
-   * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#insertion-sort-list)
-     * [解題說明圖(Insertion Sort List)]
+   * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#insertion-sort)
+     * [解題說明圖(Insertion Sort List)](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E8%A7%A3%E9%A1%8C%E8%AA%AA%E6%98%8E%E5%9C%96insertion-sort-list)
 # Set Mismatch
 Leetcode練習題：645. Set Mismatch
 
-這是我練習的[完整程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/645.%20Set%20Mismatch.py)
+這是我練習的[完整程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/645.%20Set%20Mismatch.py)
 
 ## [回首頁](https://github.com/HTY62006/MyLearningNote)
-(https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E8%A7%A3%E9%A1%8C%E8%AA%AA%E6%98%8E%E5%9C%96insertion-sort-list)
 ## 需求
 nums應為一個內容為1~n的list：nums = [1, 2, 3, 4,..., n]。
 1. 回傳nums的重複項
@@ -49,7 +48,7 @@ Output: [2,3]
 # Insertion Sort
 Leetcode練習題：147. Insertion Sort List
 
-這是我練習的[完整程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/147.%20Insertion%20Sort%20List.py)
+這是我練習的[完整程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
 ## [回首頁](https://github.com/HTY62006/MyLearningNote)
 
 ## 簡介
