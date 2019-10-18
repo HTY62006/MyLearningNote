@@ -1,6 +1,6 @@
 # Set and Insertion Sort
 ## 目錄
-   * [SetMismatch](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%B0%A1%E4%BB%8B)
+   * [SetMismatch](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#set-mismatch)
    * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#insertion-sort)
      * [解題說明圖(Insertion Sort List)](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E8%A7%A3%E9%A1%8C%E8%AA%AA%E6%98%8E%E5%9C%96insertion-sort-list)
 # Set Mismatch
@@ -51,7 +51,6 @@ Leetcode練習題：147. Insertion Sort List
 
 這是我練習的[完整程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
 
-## [回首頁](https://github.com/HTY62006/MyLearningNote)
 ## 簡介
 Insertion Sort（插入排序法）：
 1. 將資料分為**已排序**與**未排序**。
