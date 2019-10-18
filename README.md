@@ -18,10 +18,11 @@
      * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1:%20Quick%20Sort) ←**本週作業**
        * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
        * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)(Github無法載入時可用jupyter nbviewer看)
+       * [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/Quick_Sort.png)
 
 
 
-## 2. Leetcode自我練習
+## Leetcode自我練習
    * [1. Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/1.%20Two%20Sum.py)
    * [7. Reverse Integer](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/7.%20Reverse%20Integer.py)
    * [21. Merge Two Sorted Lists](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/21.%20Merge%20Two%20Sorted%20Lists.py)
