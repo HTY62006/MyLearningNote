@@ -2,21 +2,20 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
-## 目錄
-1. [Leetcode作業](https://github.com/HTY62006/MyLearningNote#1-leetcode%E4%BD%9C%E6%A5%AD)
-2. [Leetcode自我練習](https://github.com/HTY62006/MyLearningNote#2-leetcode%E8%87%AA%E6%88%91%E7%B7%B4%E7%BF%92)
-3. [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote#3-%E4%BD%9C%E6%A5%AD%E4%B8%80quick-sort) ←**本週作業**
-## 1. Leetcode作業
+## 每週進度
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/01_Linked%20list.md)
    * Week3: 
-     * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/02_Stack%20&%20Queue.md)
+     * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Week3)
    * Week4: 
      * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/03_Set%20Mismatch.md)
      * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md)
    * Week5:
+     * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1:%20Quick%20Sort) ←**本週作業**
+       * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
+       * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)(Github無法載入時可用jupyter nbviewer看)
 
-#### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
+
 
 ## 2. Leetcode自我練習
    * [1. Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/1.%20Two%20Sum.py)
@@ -29,10 +28,4 @@
    * [326. Power of Three](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/326.%20Power%20of%20Three.py)
    * [342. Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/342.%20Power%20of%20Four.py)
 
-#### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
 
-## 3. 作業一：Quick Sort
-   * Quick Sort(10/18 AM9:00 前繳交)
-     * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
-     * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)(Github無法載入時可用jupyter nbviewer看)
-#### [回目錄](https://github.com/HTY62006/MyLearningNote#%E7%9B%AE%E9%8C%84)
