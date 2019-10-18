@@ -44,13 +44,14 @@ Output: [2,3]
    miss = sum(set(correct) - set(nums))
    ```
 5. 最後可回傳結果為[2,3]
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E7%9B%AE%E9%8C%84)
 
 # Insertion Sort
 Leetcode練習題：147. Insertion Sort List
 
 這是我練習的[完整程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
-## [回首頁](https://github.com/HTY62006/MyLearningNote)
 
+## [回首頁](https://github.com/HTY62006/MyLearningNote)
 ## 簡介
 Insertion Sort（插入排序法）：
 1. 將資料分為**已排序**與**未排序**。
@@ -65,7 +66,7 @@ Insertion Sort（插入排序法）：
 * 橘色：已排序的資料
 * 白色：正在處理的資料
 > 參考：[【演算法】插入排序法(Insertion Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Insertion/1.php)
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E7%9B%AE%E9%8C%84)
 ## Insertion Sort List
 ### 需求
 使用Insertion Sort對Linke list進行排序。
@@ -121,10 +122,10 @@ Insertion Sort（插入排序法）：
    t.next = None
    return out
    ```
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E7%9B%AE%E9%8C%84)
 ## 解題說明圖(Insertion Sort List)
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/IS02.png)
 [點此可看大圖](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/IS02.png)
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md#%E7%9B%AE%E9%8C%84)
+## [↑回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E7%9B%AE%E9%8C%84)
 
 ## [回首頁](https://github.com/HTY62006/MyLearningNote)
