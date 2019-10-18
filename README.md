@@ -7,9 +7,10 @@
      * [Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/01_Linked%20list.md)
    * Week3: 
      * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Week3)
-   * Week4: 
-     * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/03_Set%20Mismatch.md)
-     * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md)
+   * Week4:
+     * [Set and Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Week4)
+       * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/645.%20Set%20Mismatch.py)
+       * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/blob/master/%E7%AD%86%E8%A8%98/04_Insertion%20Sort.md)
    * Week5:
      * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1:%20Quick%20Sort) ←**本週作業**
        * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
