@@ -1,6 +1,7 @@
 # Heap Sort
 ## 目錄
 * Heap
+  * [簡介](https://github.com/HTY62006/MyLearningNote/tree/master/Week6#%E7%B0%A1%E4%BB%8B)
 ## Heap
 ### 簡介
 Heap，堆積，為一種**樹狀結構**。每個頂點稱為節點(Node)，值儲存在節點中。
