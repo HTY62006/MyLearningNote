@@ -34,6 +34,7 @@ Heap，堆積，為一種**樹狀結構**。每個頂點稱為節點(Node)，值
 * 插入值，需反覆與父節點比較後往上移動。
 → 直到滿足heap的條件。
 ```
+> 參考資料：[[資料結構]堆積(Heap)](https://ithelp.ithome.com.tw/articles/10206479)、[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.42~p.45
 ### Python的heapq套件
 [【練習】](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/Week6/heapq.ipynb)
 > 參考資料：[Python heapq.heapify() Examples](https://www.programcreek.com/python/example/2770/heapq.heapify)、[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
