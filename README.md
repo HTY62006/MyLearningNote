@@ -21,7 +21,11 @@
        * [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/Quick_Sort.png)
      * Sort List
    * Week6:
-     * [Heap Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Week6)
+     * [Heap](https://github.com/HTY62006/MyLearningNote/tree/master/Week6)
+   * Week7:
+     * 作業二：Heap Sort & Merge Sort
+       * Heap Sort
+       * Merge Dort
 
 
 
