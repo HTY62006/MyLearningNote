@@ -39,4 +39,4 @@ Heap，堆積，為一種**樹狀結構**。每個頂點稱為節點(Node)，值
 [【練習】](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/Week6/heapq.ipynb)
 > 參考資料：[Python heapq.heapify() Examples](https://www.programcreek.com/python/example/2770/heapq.heapify)、[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
 ## [回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week6#%E7%9B%AE%E9%8C%84)
-## Heap Sort
+# [回首頁](https://github.com/HTY62006/MyLearningNote)
