@@ -3,6 +3,9 @@
 ![image](https://images.plurk.com/1Y6jMSCv2hRVy5cRTq15t1.jpg)
 ![image](https://images.plurk.com/2S2oO4OdbG2mmbfFohC5bA.jpg)
 ![image](https://images.plurk.com/6whjQw5jCmSozh60MADt8z.jpg)
+
 原先在推過程的時候，確實有在最後如何將值回傳的地方卡住，後來是參考《演算法圖鑑》一書中的敘述將其修改完畢。
+
+參考資料：
 ![image](https://images.plurk.com/1Ay9eC19QMMPA5pvoQvrbN.jpg)
 
