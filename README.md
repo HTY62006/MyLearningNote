@@ -19,7 +19,7 @@
        * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
        * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)(Github無法載入時可用jupyter nbviewer看)
        * [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/Quick_Sort.png)
-     * Sort List
+     * [Quick Sort其他練習與檔案](https://github.com/HTY62006/MyLearningNote/tree/master/Week5)
    * Week6:
      * [Heap](https://github.com/HTY62006/MyLearningNote/tree/master/Week6)
    * Week7:
