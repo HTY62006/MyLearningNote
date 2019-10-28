@@ -2,6 +2,7 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
+## 修改完畢的[作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1)
 ## 每週進度
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week2)
@@ -16,10 +17,10 @@
        * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
    * Week5: *國慶放假*
      * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1)
-       * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)
-       * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/HW1_Quick_Sort.ipynb)(Github無法載入時可用jupyter nbviewer看)
+       * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1/Quick_Sort_%E6%94%B9%E5%AF%AB.ipynb)
+       * [Quick Sort(nbviewer)](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/HW1/Quick_Sort_%E6%94%B9%E5%AF%AB.ipynb)(Github無法載入時可用jupyter nbviewer看)
        * [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/Quick_Sort.png)
-     * [Quick Sort其他練習與檔案](https://github.com/HTY62006/MyLearningNote/tree/master/Week5)
+     * [其他練習](https://github.com/HTY62006/MyLearningNote/tree/master/Week5)
    * Week6:
      * [Heap](https://github.com/HTY62006/MyLearningNote/tree/master/Week6)
    * Week7:
