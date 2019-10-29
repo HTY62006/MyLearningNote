@@ -1,4 +1,4 @@
-# Heap Sort
+# Heap
 ## 目錄
 * Heap
   * [簡介](https://github.com/HTY62006/MyLearningNote/tree/master/Week6#%E7%B0%A1%E4%BB%8B)
