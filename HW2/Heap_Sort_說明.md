@@ -90,7 +90,7 @@ def build_maxheap(A):
         maxheapify(A, root)
 ```
 將list轉為heap。
-<br>發現原先在檢查右方子節點時，else:  minIndex = root是多此一舉。此外，每次調整結構應是整個進行調整，不是僅調整部分。
+<br>發現原先在檢查右方子節點時，else:  MaxIndex = root是多此一舉。此外，每次調整結構應是整個進行調整，不是僅調整部分。
 
 修改後的程式碼：
 ```Python
