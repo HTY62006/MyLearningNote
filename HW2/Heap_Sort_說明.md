@@ -4,6 +4,7 @@
   * [Heap觀念](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#heap%E8%A7%80%E5%BF%B5)
   * [Heap Sort觀念](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#heap-sort%E8%A7%80%E5%BF%B5)
 * [學習歷程]
+  * [嘗試創建Heap]
 ## 文字說明
 ### Heap觀念
 對於Heap的觀念詳細說明---->[【請點我】](https://github.com/HTY62006/MyLearningNote/blob/master/Week6/README.md)
@@ -39,12 +40,12 @@ def MaxHeapify(A):
         root = i
         left = i*2+1
         right = i*2+2
-        if (left < len(A)-1) and (A[left] > A[root]):
+        if (left < len(A)) and (A[left] > A[root]):
             MaxIndex = left
         else:
             MaxIndex = root
             
-        if (right < len(A)-1) and (A[right] > A[MaxIndex]):
+        if (right < len(A)) and (A[right] > A[MaxIndex]):
             MaxIndex = right
         else:
             MaxIndex = root
@@ -59,5 +60,53 @@ def MaxHeapify(A):
 ![image](https://images.plurk.com/1NTrL2FBVUmxlhYtukjdbh.png)
 
 ----> 不符合heap規則
+
 2. 參考別人的教學，再次確定自己是否哪裡想法有誤。
 > 參考資料：[Heap - Build Max Heap](https://www.youtube.com/watch?v=WsNQuCa_-PU)
+
+依照影片的說明，從最底一層往上確認回去。
+```Python
+def build_maxheap(A):
+    for i in range(len(A)-1, -1, -1):
+        root = i/2
+        maxheapify(A, root)
+```
+此處執行時發生**TypeError: list indices must be integers or slices, not float**，檢查後發現是在設置root對應的index時用錯除法。
+> 參考資料：[給自學者的Python教學(5)：算術運算子](https://medium.com/@ChunYeung/%E7%B5%A6%E8%87%AA%E5%AD%B8%E8%80%85%E7%9A%84python%E6%95%99%E5%AD%B8-5-%E7%AE%97%E8%A1%93%E9%81%8B%E7%AE%97%E5%AD%90-6fd923561349)
+
+在python之中，算術運算子「/」和「//」的差異是：
+
+運算子 | 說明
+------|-------------------------------------
+/     | 結果包含小數點，資料型態為float
+//    | 整數除法，結果不含小數點，資料型態為int
+
+因原本root想求整數，卻使用成/，故會出現此錯誤。因此修改成root = i//2。
+```Python
+def build_maxheap(A):
+    for i in range(len(A)-1, -1, -1):
+        root = i/2
+        maxheapify(A, root)
+```
+將list轉為heap。
+<br>發現原先在檢查右方子節點時，else:  minIndex = root是多此一舉。此外，每次調整結構應是整個進行調整，不是僅調整部分。
+
+修改後的程式碼：
+```Python
+def maxheapify(A, root):
+    left = root*2+1
+    right = root*2+2
+    if (left < len(A)) and (A[left] > A[root]):
+        MaxIndex = left
+    else:
+        MaxIndex = root
+            
+    if (right < len(A)) and (A[right] > A[MaxIndex]):
+        MaxIndex = right
+            
+    if MaxIndex != root:
+        change = A[root]
+        A[root] = A[MaxIndex]
+        A[MaxIndex] = change
+        maxheapify(A,MaxIndex)
+```
