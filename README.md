@@ -2,7 +2,7 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
-## 修改完畢的[作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1)
+## 作業二：[Heap Sort & Merge Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW2)
 ## 每週進度
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week2)
@@ -24,7 +24,7 @@
    * Week6:
      * [Heap](https://github.com/HTY62006/MyLearningNote/tree/master/Week6)
    * Week7:
-     * 作業二：Heap Sort & Merge Sort
+     * 作業二：[Heap Sort & Merge Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW2)
        * Heap Sort
        * Merge Dort
 
