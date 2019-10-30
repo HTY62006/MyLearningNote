@@ -3,6 +3,7 @@
 * [文字說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E)
   * [Heap觀念](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#heap%E8%A7%80%E5%BF%B5)
   * [Heap Sort觀念](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#heap-sort%E8%A7%80%E5%BF%B5)
+* [學習歷程]
 ## 文字說明
 ### Heap觀念
 對於Heap的觀念詳細說明---->[【請點我】](https://github.com/HTY62006/MyLearningNote/blob/master/Week6/README.md)
@@ -28,3 +29,35 @@
 5. 以此類推，不斷重複取root和重新排列heap的動作，**直到取出所有的數**。
 6. 完成排序。
 > 參考資料：[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.66~p.68
+## 學習歷程
+### 嘗試創建Heap
+1. 原先的想法
+> 參考資料：[Heap - Max Heapify](https://www.youtube.com/watch?v=5iBUTMWGtIQ)
+```Python
+def MaxHeapify(A):
+    for i in range(len(A)):
+        root = i
+        left = i*2+1
+        right = i*2+2
+        if (left < len(A)-1) and (A[left] > A[root]):
+            MaxIndex = left
+        else:
+            MaxIndex = root
+            
+        if (right < len(A)-1) and (A[right] > A[MaxIndex]):
+            MaxIndex = right
+        else:
+            MaxIndex = root
+            
+        if MaxIndex != root:
+            change = A[root]
+            A[root] = A[MaxIndex]
+            A[MaxIndex] = change
+        print(A)
+```
+假設我輸入的list為[3,2,1,1,7,8]，會出現問題是：**最後回傳的是[3, 7, 1, 1, 2, 8]**。
+![image](https://images.plurk.com/1NTrL2FBVUmxlhYtukjdbh.png)
+
+----> 不符合heap規則
+2. 參考別人的教學，再次確定自己是否哪裡想法有誤。
+> 參考資料：[Heap - Build Max Heap](https://www.youtube.com/watch?v=WsNQuCa_-PU)
