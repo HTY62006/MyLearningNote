@@ -86,7 +86,7 @@ def build_maxheap(A):
 ```Python
 def build_maxheap(A):
     for i in range(len(A)-1, -1, -1):
-        root = i/2
+        root = i//2
         maxheapify(A, root)
 ```
 將list轉為heap。
