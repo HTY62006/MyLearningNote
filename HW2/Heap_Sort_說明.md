@@ -31,6 +31,8 @@
 5. 以此類推，不斷重複取root和重新排列heap的動作，**直到取出所有的數**。
 6. 完成排序。
 > 參考資料：[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.66~p.68
+
+![image](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/HS04.jpg)
 ## 學習歷程
 ### 嘗試創建Heap
 1. 原先的想法
@@ -111,4 +113,5 @@ def maxheapify(A, root):
         A[MaxIndex] = change
         maxheapify(A,MaxIndex)
 ```
+![image](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/HS03.jpg)
 ### 嘗試進行Heap Sort
