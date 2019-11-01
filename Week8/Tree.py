@@ -25,4 +25,4 @@ class Node:
 # add_left
 # add_right
 # replace
-# 
+# del
