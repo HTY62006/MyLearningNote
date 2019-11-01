@@ -21,3 +21,8 @@ class Node:
         
                 
             
+# add_root
+# add_left
+# add_right
+# replace
+# 
