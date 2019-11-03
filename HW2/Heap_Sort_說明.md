@@ -115,3 +115,6 @@ def maxheapify(A, root):
 ```
 ![image](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/HS03.jpg)
 ### 嘗試進行Heap Sort
+```Text
+採用Max heap來進行heap sort。
+```
