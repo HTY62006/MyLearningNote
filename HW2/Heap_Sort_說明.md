@@ -136,3 +136,30 @@ def heap_sort(self, nums):
 ```
 可是在回傳結果時發生了一個問題，沒有排序成功，因此檢查是哪部分出錯。
 ![image](https://images.plurk.com/3g2YVirwAYWflF3tx3sygW.png)
+
+仔細想想，發現不對，我似乎也沒必要將值互換，如果照我原先的邏輯的話，我完全可以這麼做：
+1. 將list轉為max heap。
+2. max heap中index=0的值是最大值，將他取出。
+3. 重整heap 結構。
+
+這樣的話我似乎可以在heap sort的部分更簡單點的解決，因此我改以這種方式呈現。
+```Python
+def heap_sort(self, nums):
+    numd = self.buildMaxHeap(nums)
+    max_now = nums[0]       
+    n = len(nums)-1
+    return self.heap_sort(nums[:n])+[max_now]
+```
+此處執行時發生**IndexError: list index out of range**，後來發現自己是被原先的寫法給影響在設置後續要重整結構的部份時，將值給誤設為[:n]。因為假設原本我用互換的方式，比如說在第一次執行的時候[5,2,3]會先變成[3,2,5]，再對剩餘部分進行判斷。但現在我沒互換的前提下，我可以直接從1開始判斷。
+
+另外我也發現我沒考慮到假設我想用return A+B的方式來實現遞迴的話，去排除如果已經沒法再分類的情況，因此也對此做出修改。
+
+def heap_sort(self, nums)中修改後的程式：
+```Python
+if len(nums)>1:
+    nums = self.buildMaxHeap(nums)
+    max_now = nums[0]
+    return self.heap_sort(nums[1:])+[max_now]
+    else:
+        return nums
+```
