@@ -119,3 +119,16 @@ def maxheapify(A, root):
 ```Text
 採用Max heap來進行heap sort。
 ```
+我的想法是先讓Max heap後的root(第一個值)和最後一個值交換，再針對除了已排序好的部分繼續做重新建構heap、取root、重新建構heap......的步驟。
+```Python
+def heap_sort(self, nums):
+    self.buildMaxHeap(nums)
+        
+    for i in range(len(nums)-1, -1, -1):
+        check_max_index = nums[0]
+        nums[0] = nums[i]
+        nums[i] = check_max_index
+            
+        self.buildMaxHeap(nums[:i])
+    return nums
+ 
