@@ -6,6 +6,7 @@
 * [學習歷程](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B)
   * [嘗試創建Heap](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#%E5%98%97%E8%A9%A6%E5%89%B5%E5%BB%BAheap)
   * [嘗試進行Heap Sort](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#%E5%98%97%E8%A9%A6%E9%80%B2%E8%A1%8Cheap-sort)
+* [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E8%AA%AA%E6%98%8E.md#%E6%B5%81%E7%A8%8B%E5%9C%96)
 ## 文字說明
 ### Heap觀念
 對於Heap的觀念詳細說明---->[【請點我】](https://github.com/HTY62006/MyLearningNote/blob/master/Week6/README.md)
@@ -204,5 +205,6 @@ class Solution(object):
             self.maxheapify(nums, max_index)#檢查下一層是否符合heap規則
 ```
 * **結果**
+
 ![image](https://images.plurk.com/43Fq7lk9XfMf6Roan7mMpY.png)
 ### 流程圖
