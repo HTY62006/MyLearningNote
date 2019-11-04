@@ -120,6 +120,8 @@ def maxheapify(A, root):
 採用Max heap來進行heap sort。
 ```
 我的想法是先讓Max heap後的root(第一個值)和最後一個值交換，再針對除了已排序好的部分繼續做重新建構heap、取root、重新建構heap......的步驟。
+
+因為寫在class中，呼叫class中的其他函式須加上self在前面。
 ```Python
 def heap_sort(self, nums):
     self.buildMaxHeap(nums)
@@ -131,4 +133,6 @@ def heap_sort(self, nums):
             
         self.buildMaxHeap(nums[:i])
     return nums
- 
+```
+可是在回傳結果時發生了一個問題，沒有排序成功，因此檢查是哪部分出錯。
+![image](https://images.plurk.com/3g2YVirwAYWflF3tx3sygW.png)
