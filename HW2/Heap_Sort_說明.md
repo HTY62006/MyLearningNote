@@ -88,7 +88,7 @@ def build_maxheap(A):
 ```Python
 def build_maxheap(A):
     for i in range(len(A)-1, -1, -1):
-        root = i//2
+        root = i//2 # 取整數結果
         maxheapify(A, root)
 ```
 將list轉為heap。
@@ -97,21 +97,22 @@ def build_maxheap(A):
 修改後的程式碼：
 ```Python
 def maxheapify(A, root):
-    left = root*2+1
-    right = root*2+2
+    left = root*2+1 # 左子節點
+    right = root*2+2 # 右子節點
+    # 如果left值>root值，那目前此階段最大值的index為left
     if (left < len(A)) and (A[left] > A[root]):
         MaxIndex = left
     else:
-        MaxIndex = root
-            
+        MaxIndex = root # 沒有的話就仍是root
+    # 和最大值比較，right值若較大，則取代原先max_index成為新的最大值的index        
     if (right < len(A)) and (A[right] > A[MaxIndex]):
         MaxIndex = right
-            
+    # 若最大值的index和輸入的root不一致，則代表需要互換
     if MaxIndex != root:
         change = A[root]
-        A[root] = A[MaxIndex]
+        A[root] = A[MaxIndex] #互換
         A[MaxIndex] = change
-        maxheapify(A,MaxIndex)
+        maxheapify(A,MaxIndex) #檢查下一層是否符合heap規則
 ```
 ![image](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/HS03.jpg)
 ### 嘗試進行Heap Sort
