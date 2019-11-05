@@ -2,8 +2,8 @@
 ## 目錄
 * [文字說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md#%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E)
   * [Merge Sort觀念](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md#merge-sort%E8%A7%80%E5%BF%B5)
-* 學習歷程
-  * 嘗試自己寫merge sort
+* [學習歷程](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md#%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B)
+  * [嘗試自己寫merge sort](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md#%E5%98%97%E8%A9%A6%E8%87%AA%E5%B7%B1%E5%AF%ABmerge-sort)
 * 流程圖
 ## 文字說明
 ### Merge Sort觀念
