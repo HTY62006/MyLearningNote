@@ -91,18 +91,50 @@ def merge(left, right):
     m = left+right
     i=0
     j=0
-    for n in range(len(m)):
-        if i < len(left) and j < len(right): # 為了不讓list超出範圍
-            if left[i]<right[j]:
-                m[n]=left[i]
-                i+=1
-            else:
-                m[n]=right[i]
-                j+=1
+    r=0
+    while i < len(left) and j < len(right): 
+        if left[i] < right[j]: 
+            m[r] = left[i] 
+            i+=1
+        else: 
+            m[r] = right[j] 
+            j+=1
+        r+=1
     return m
 ```
-回傳結果變成[-1, -1, -1, -1, -1, -1]，檢查每步驟發現變成這樣。
-![image](https://images.plurk.com/7kDQtKH1tS4d3N0K1AQRbh.png)
+回傳結果[-3, -3, -2, 0, 5]，沒排序成功，而且-1被-3給取代了，檢查後發現問題是出在我沒考慮到如果left[i]終於碰到比它大的，它要如何進入m。
+1. [-1] [-3]
+   [-1] [-3] **[-3, -3]**←開始發生問題的地方
+2. [-2] [5]
+   [-2] [5] [-2, 5]
+3. [0] [-2, 5]
+   [0] [-2, 5] [-2, 0, 5]
+4. [-3, -3] [-2, 0, 5]
+   [-3, -3] [-2, 0, 5] [-3, -3, -2, 0, 5]
 
-[0]和[-1]在合併時變成了[-1,-1]，甚至在後續比-1大的通通被取代成-1。
-                
+因為i和j在合併時會出現m有些數沒被正確的數取代掉，若沒被取代時，i或j會小於left或right的長度，另外代表m的index(r)，是沒被取代到的值所屬的index，此時便能將沒放進m的值放進m。
+```Python
+def merge(left, right):
+    m = left+right
+    i=0
+    j=0
+    r=0
+    while i < len(left) and j < len(right): 
+        if left[i] < right[j]: 
+            m[r] = left[i] 
+            i+=1
+        else: 
+            m[r] = right[j] 
+            j+=1
+        r+=1
+    while i < len(left):
+        m[r] = left[i]
+        i+=1
+        r+=1
+    while j < len(right):
+        m[r] = right[j]
+        j+=1
+        r+=1
+    return m
+```
+## 流程圖                
