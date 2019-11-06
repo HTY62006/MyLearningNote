@@ -80,5 +80,7 @@ while r+1 < len(right):
          r+=1
 ```
 結果反而變成無限迴圈，我想我可能搞錯了什麼，所以從頭推一遍自己的流程看看究竟怎麼回事。
-
 ![image](https://images.plurk.com/Be5KAsOMfLkGSF6yqp57s.png)
+
+A
+> 參考資料：[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
