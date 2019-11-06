@@ -17,7 +17,7 @@
 
 ☆先拆分，再合併☆
 
-![image](https://images.plurk.com/3las6vNcEzdwe88kdjDwUI.png)
+![image](https://images.plurk.com/4k4d6k74pXge9a0LLcSqqn.png)
 ## 學習歷程
 ### 嘗試自己寫merge sort
 我的想法是因為merge sort必須逐步合併，切割到不能再切後，將分割完的部分鐘左右的數比較移完再合併，形成遞迴。
@@ -83,4 +83,4 @@ while r+1 < len(right):
 ![image](https://images.plurk.com/Be5KAsOMfLkGSF6yqp57s.png)
 
 A
-> 參考資料：[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)
+> 參考資料：[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)[Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
