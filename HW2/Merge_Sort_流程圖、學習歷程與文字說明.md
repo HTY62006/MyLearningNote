@@ -20,7 +20,7 @@
 ![image](https://images.plurk.com/3las6vNcEzdwe88kdjDwUI.png)
 ## 學習歷程
 ### 嘗試自己寫merge sort
-原本的想法是因為merge sort必須逐步合併，切割到不能再切後，將分割完的部分鐘左右的數比較移完再合併，形成遞迴。
+我的想法是因為merge sort必須逐步合併，切割到不能再切後，將分割完的部分鐘左右的數比較移完再合併，形成遞迴。
 ![image](https://images.plurk.com/7E37W8EnuOeWl6NL06LDDi.png)
 
 ```Python
@@ -33,3 +33,52 @@ def merge_sort(nums):
         right = merge_sort(nums[split_point:])
         return merge(left, right) # 合併
  ```
+利用`merge(left, right)`來將left與right中的數進行比較後，再合併。
+```Python
+def merge(left, right):
+    i = 0
+    j = 0
+    while left and right: # 如果left和right存在
+        if left[i]>=right[j]:
+            move = left[i]
+            left[i] = right[j]
+            right[j] = move
+            j+=1
+        else:
+            i+=1
+```
+此時會出現錯誤**IndexError: list index out of range**，檢查後發現是因為我是用while搭配i和j來對left和right進行判斷的，while迴圈形成的條件是當left和right存在，因此i和j無法在已經超出list範圍時停止，迴圈依舊執行。導致i和j最後超出left和right他們index的範圍。
+
+於是我加上i<left的長度和j<right的長度這兩個條件。
+```Python
+while left and right and i<len(left) and j<len(right): # 如果left和right存在
+    if left[i]>=right[j]:
+        move = left[i]
+        left[i] = right[j]
+        right[j] = move
+        j+=1
+    else:
+        i+=1
+```
+![image](https://images.plurk.com/6g4kWS8T1KMnG63XByu03q.png)
+
+因為我沒有考慮到在合併時，不但要left和right比較並互換，而且互換完後的left和right也要按順序排序。所以我加上兩個while迴圈來排序已經換完的部分。
+```Python
+l = 0
+while l+1 < len(left):
+    if left[l] > left[l+1]:
+        move = left[l]
+        left[l] = left[l+1]
+        left[l+1] = move
+        l+=1
+r = 0
+while r+1 < len(right):
+    if right[r] > right[r+1]:
+         move = right[r]
+         right[r] = right[r+1]
+         right[r+1] = move
+         r+=1
+```
+結果反而變成無限迴圈，我想我可能搞錯了什麼，所以從頭推一遍自己的流程看看究竟怎麼回事。
+
+![image](https://images.plurk.com/Be5KAsOMfLkGSF6yqp57s.png)
