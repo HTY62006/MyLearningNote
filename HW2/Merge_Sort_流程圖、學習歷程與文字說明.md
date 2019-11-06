@@ -113,6 +113,14 @@ def merge(left, right):
    [-3, -3] [-2, 0, 5] [-3, -3, -2, 0, 5]
 
 因為i和j在合併時會出現m有些數沒被正確的數取代掉，若沒被取代時，i或j會小於left或right的長度，另外代表m的index(r)，是沒被取代到的值所屬的index，此時便能將沒放進m的值放進m。
+> * [-1] [-3] m=[-1,-3]
+  * i = 0
+  * -1>-3
+  * m[0] = right[0]=[-3]
+  * m=[-3,-3]
+  * j=1 r=1 (while結束，j>=len(right))
+  * m[1] = left[0] = [-1]
+  * m=[-3,-1]
 ```Python
 def merge(left, right):
     m = left+right
