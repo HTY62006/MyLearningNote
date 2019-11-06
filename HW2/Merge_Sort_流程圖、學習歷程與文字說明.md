@@ -20,3 +20,16 @@
 ![image](https://images.plurk.com/3las6vNcEzdwe88kdjDwUI.png)
 ## 學習歷程
 ### 嘗試自己寫merge sort
+原本的想法是因為merge sort必須逐步合併，切割到不能再切後，將分割完的部分鐘左右的數比較移完再合併，形成遞迴。
+![image](https://images.plurk.com/7E37W8EnuOeWl6NL06LDDi.png)
+
+```Python
+def merge_sort(nums):
+    if len(nums)<=1:
+        return(nums) # 如果輸入的list<=1，直接回傳
+    else:
+        split_point = len(nums)//2 # 分割點
+        left = merge_sort(nums[:split_point])
+        right = merge_sort(nums[split_point:])
+        return merge(left, right) # 合併
+ ```
