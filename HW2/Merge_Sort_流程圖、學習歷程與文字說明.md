@@ -79,8 +79,30 @@ while r+1 < len(right):
          right[r+1] = move
          r+=1
 ```
-結果反而變成無限迴圈，我想我可能搞錯了什麼，所以從頭推一遍自己的流程看看究竟怎麼回事。
+結果反而跑很久都跑不出來，我想我可能搞錯了什麼，所以從頭推一遍自己的流程看看究竟怎麼回事。
 ![image](https://images.plurk.com/Be5KAsOMfLkGSF6yqp57s.png)
 
-A
-> 參考資料：[Merge sort and quick sort](https://www.slideshare.net/MJabin/merge-sort-and-quick-sort)[Merge Sort | GeeksforGeeks](https://www.youtube.com/watch?v=JSceec-wEyw)
+我發現自己好像把問題搞得太複雜了，因為現在我變成說只進行初步的交換後，又把他們又重新比大小了一次。以[3,2,0,7,3,-1]為例，其中一次回傳的內容會是left=[3]，right=[0,2]，依我原本的程式碼會先變成[0]和[3,2]，再重新排序[3,2]變成[2,3]，再合併成[0,2,3]。這麼做似乎有些太複雜了，因此我參考老師簡報中提供的介紹影片，重構我merge部分的想法。
+> 參考資料：[Merge Sort 3 – Towards an Implementation (Merge Two Lists)](https://www.youtube.com/watch?v=s8kQm8yhZ8U)
+
+將left的第一位向right比較，如果小於right的值就設為合併好list的第一位，left前往第二位；如果大於right的值，right便依序進入合併好的list，直到left目前判斷的數值遇到比它大的值。
+```Python
+def merge(left, right):
+    m = left+right
+    i=0
+    j=0
+    for n in range(len(m)):
+        if i < len(left) and j < len(right): # 為了不讓list超出範圍
+            if left[i]<right[j]:
+                m[n]=left[i]
+                i+=1
+            else:
+                m[n]=right[i]
+                j+=1
+    return m
+```
+回傳結果變成[-1, -1, -1, -1, -1, -1]，檢查每步驟發現變成這樣。
+![image](https://images.plurk.com/7kDQtKH1tS4d3N0K1AQRbh.png)
+
+[0]和[-1]在合併時變成了[-1,-1]，甚至在後續比-1大的通通被取代成-1。
+                
