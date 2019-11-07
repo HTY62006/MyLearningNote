@@ -121,6 +121,7 @@ def merge(left, right):
 * j=1 r=1 (while結束，j>=len(right))
 * m[1] = left[0] = [-1]
 * m=[-3,-1]
+![image](https://images.plurk.com/K9ATGNjPWwsdJtGb1eZbc.jpg)
 ```Python
 def merge(left, right):
     m = left+right
