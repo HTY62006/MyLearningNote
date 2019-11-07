@@ -16,9 +16,9 @@ class Solution(object):
         
     def merge(self, left, right):
         m = left+right # 先合併提供一個空間供稍後將正確的數放入list
-        i=0
-        j=0
-        r=0
+        i=0 # 從left的index=0開始
+        j=0 # 從right的index=0開始
+        r=0 # m的正確值從index=0開始放置
         while i < len(left) and j < len(right): 
             # m的第r位會是left[i]和right[j]中較小的一方
             if left[i] < right[j]: 
