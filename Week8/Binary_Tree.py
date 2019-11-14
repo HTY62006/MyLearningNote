@@ -22,3 +22,10 @@ n = TreeNode(10)
 l = TreeNode(9)
 n.left=l
 print(n.val, n.left.val)
+
+
+# add_root
+# add_left
+# add_right
+# replace
+# del
