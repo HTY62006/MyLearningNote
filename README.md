@@ -33,7 +33,7 @@
          * [流程圖、學習歷程與文字說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md)
        * [Merge Sort\Heap Sort之比較](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge%20Sort%5CHeap%20Sort%E4%B9%8B%E6%AF%94%E8%BC%83.md)
    * Week8:
-     * [Binary Tree]((https://github.com/HTY62006/MyLearningNote/tree/master/Week8)
+     * [Binary Tree](https://github.com/HTY62006/MyLearningNote/tree/master/Week8)
    * Week9:
      * 作業三：[Binary Search Tree](https://github.com/HTY62006/MyLearningNote/tree/master/HW3)
    * Week10:
