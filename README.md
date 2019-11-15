@@ -2,7 +2,7 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
-## 作業二：[Heap Sort & Merge Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW2)
+## 作業二：[Binary Search Tree](https://github.com/HTY62006/MyLearningNote/tree/master/HW3)
 ## 每週進度
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week2)
@@ -35,7 +35,7 @@
    * Week8:
      * Binary Tree
    * Week9:
-     * 作業三：Binary Search Tree
+     * 作業三：[Binary Search Tree](https://github.com/HTY62006/MyLearningNote/tree/master/HW3)
    * Week10:
      * Red Black Tree
 
