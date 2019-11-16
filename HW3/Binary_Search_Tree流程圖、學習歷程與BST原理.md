@@ -7,4 +7,5 @@
 1. 選擇一個root。
 2. 較小的往左邊。
 3. 較大的往右邊。
+![image](https://images.plurk.com/OC0qKuQBwBaOPDUAdrbkG.jpg)
 > 參考資料：https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_title
