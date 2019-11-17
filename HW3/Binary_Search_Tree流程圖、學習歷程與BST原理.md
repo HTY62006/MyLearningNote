@@ -10,5 +10,5 @@
    * 任意左子樹只要不為空的話，左子樹上所有節點的值都小於根節點的值。
 3. 較大的往右邊。
    * 任意右子樹只要不為空的話，右子樹上所有節點的值都大於根節點的值。
-![image](https://images.plurk.com/OC0qKuQBwBaOPDUAdrbkG.jpg)
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/BST01.png)
 > 參考資料：[Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_title)、[[資料結構] 二元搜尋樹 (Binary Search Tree)](https://ithelp.ithome.com.tw/articles/10205875)
