@@ -88,3 +88,35 @@ ttributeError: 'NoneType' object has no attribute 'val'
 因為輸入的值不在bst內，跑到最後root.right或root.left會是None，但root.right或root.left都沒有val，因此我做出一些修改。
 * 如果root.left或root.right不等於None時才會執行原本的判斷式。
 * 如果是None就回傳None(search的值不在bst內)。
+```Python
+def search(self, root, target):
+    if root != None:
+        if root.val == target:
+            return root
+        # 搜尋，target<root的值就往左走
+        elif target < root.val:
+            # 如果左邊不是None
+            if root.left != None:
+                # 判斷target是否與root.left.val一致
+                if root.left.val != target:
+                    # root.left取代原本的root
+                    return self.search(root.left, target)
+                else:
+                    return root.left
+            else:
+                return None
+        else: # target>root.val
+            # 如果右邊邊不是None
+            if root.right != None:
+                # 判斷target是否與root.left.val一致
+                if root.right.val != target:
+                    # root.right取代原本的root
+                    return self.search(root.right, target)
+                else:
+                    return root.right
+            else:
+                return None
+    else:
+        return None
+```
+### 刪除
