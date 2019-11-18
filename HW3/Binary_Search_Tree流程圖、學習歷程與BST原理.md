@@ -38,3 +38,6 @@ def insert(self, root, val):
 #             root = root.right
             self.insert(root.right, val)
 ```
+可是這時候會發生一個問題，雖然確實有成功插入，但會出現一個問題：
+* 若root不存在，會無法成功插入（root沒成功變成4）。
+![image](https://images.plurk.com/6mRYa0i9zSNaYn07XJSgrn.png)
