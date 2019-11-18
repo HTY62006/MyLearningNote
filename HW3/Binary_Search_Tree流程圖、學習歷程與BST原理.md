@@ -39,7 +39,6 @@ def insert(self, root, val):
             self.insert(root.right, val)
 ```
 因為輸入的BST會是完整且正確的，所以其實不會出現root == None的情況，因此再將程式碼簡化。
-* 所以，如果沒有遇到None之前，root就會改變成現在的子節點，然後繼續尋找可插入的位子。
 ```Python
 def insert(self, root, val):
     # 如果相同或小於的話插入左邊
