@@ -1,7 +1,7 @@
 # Binary Search Tree
 ## 目錄
 * [原理](https://github.com/HTY62006/MyLearningNote/blob/master/HW3/Binary_Search_Tree%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87BST%E5%8E%9F%E7%90%86.md#bst%E5%8E%9F%E7%90%86)
-* 學習歷程
+* [學習歷程](https://github.com/HTY62006/MyLearningNote/blob/master/HW3/Binary_Search_Tree%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87BST%E5%8E%9F%E7%90%86.md#%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B)
 * 流程圖
 ## BST原理
 參考老師上課講義中的影片與網路文章的說明後，歸納出bianry search tree的原理：
@@ -85,6 +85,7 @@ def search(self, root, target):
 ttributeError: 'NoneType' object has no attribute 'val'
 ```
 ![image](https://images.plurk.com/3HhpVgW223uHjHHklImjLL.png)
+
 因為輸入的值不在bst內，跑到最後root.right或root.left會是None，但root.right或root.left都沒有val，因此我做出一些修改。
 * 如果root.left或root.right不等於None時才會執行原本的判斷式。
 * 如果是None就回傳None(search的值不在bst內)。
