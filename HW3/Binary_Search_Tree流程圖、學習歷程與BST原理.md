@@ -38,6 +38,48 @@ def insert(self, root, val):
 #             root = root.right
             self.insert(root.right, val)
 ```
-可是這時候會發生一個問題，雖然確實有成功插入，但會出現一個問題：
-* 若root不存在，會無法成功插入（root沒成功變成4）。
-![image](https://images.plurk.com/6mRYa0i9zSNaYn07XJSgrn.png)
+因為輸入的BST會是完整且正確的，所以其實不會出現root == None的情況，因此再將程式碼簡化。
+* 所以，如果沒有遇到None之前，root就會改變成現在的子節點，然後繼續尋找可插入的位子。
+```Python
+def insert(self, root, val):
+    # 如果相同或小於的話插入左邊
+    if val <= root.val:
+        if root.left == None:
+            root.left = TreeNode(val)
+            return root.left
+        else:
+#             root = root.left
+            self.insert(root.left, val)                
+    elif val > root.val:
+        if root.right == None:
+            root.right = TreeNode(val)
+            return root.right
+        else:
+#             root = root.right
+            self.insert(root.right, val)
+```
+### 查詢
+接下來我做了查詢的部分，我的想法和做insert在找可插入位子時類似。
+* 檢查target有沒有和root的值一致，如果有，回傳root。
+* 如果target小於root的值，檢查root.left是否一致，如果不一致，root.left取代成新的root，繼續尋找相同的位子。
+* 如果target大於root的值，檢查root.right是否一致，如果不一致，root.right取代成新的root，繼續尋找相同的位子。
+```Python
+def search(self, root, target):
+    if root.val == target:
+        return root
+    elif target < root.val:
+        if root.left.val != target:
+            # root.left取代原本的root
+            return self.search(root.left, target)
+        else:
+            return root.left
+        else: # target>root.val
+        if root.right.val != target:
+            return self.search(root.right, target)
+        else:
+            return root.right
+```
+此時若去查詢位於bst內的值，結果都會是正確的，但如果輸入的值不在bst內，會跳出錯誤：
+```Text
+ttributeError: 'NoneType' object has no attribute 'val'
+```
