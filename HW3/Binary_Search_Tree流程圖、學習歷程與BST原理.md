@@ -38,24 +38,26 @@ def insert(self, root, val):
 #             root = root.right
             self.insert(root.right, val)
 ```
-因為輸入的BST會是完整且正確的，所以其實不會出現root == None的情況，因此再將程式碼簡化。
+這時候會出現一個問題是，**雖然有成功插入值，但Solution().insert(root,val)回傳的是None**，檢查時發現是因為我做self.insert(root.left, val)和self.insert(root.right, val)時沒有return。
 ```Python
 def insert(self, root, val):
-    # 如果相同或小於的話插入左邊
-    if val <= root.val:
+    if root == None:
+        root = TreeNode(val)
+        return root
+    elif val <= root.val:
         if root.left == None:
             root.left = TreeNode(val)
             return root.left
         else:
 #             root = root.left
-            self.insert(root.left, val)                
+            return self.insert(root.left, val)                
     elif val > root.val:
         if root.right == None:
             root.right = TreeNode(val)
             return root.right
         else:
 #             root = root.right
-            self.insert(root.right, val)
+            return self.insert(root.right, val)
 ```
 ### 查詢
 接下來我做了查詢的部分，我的想法和做insert在找可插入位子時類似。
@@ -82,3 +84,7 @@ def search(self, root, target):
 ```Text
 ttributeError: 'NoneType' object has no attribute 'val'
 ```
+![image](https://images.plurk.com/3HhpVgW223uHjHHklImjLL.png)
+因為輸入的值不在bst內，跑到最後root.right或root.left會是None，但root.right或root.left都沒有val，因此我做出一些修改。
+* 如果root.left或root.right不等於None時才會執行原本的判斷式。
+* 如果是None就回傳None(search的值不在bst內)。
