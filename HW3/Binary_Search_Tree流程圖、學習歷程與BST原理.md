@@ -121,3 +121,133 @@ def search(self, root, target):
         return None
 ```
 ### 刪除
+```Text
+* 符合條件的節點下方沒有子節點的話，直接刪除該節點。
+* 如果欲刪除的節點下方還有一個子節點，先刪除該節點，然後再將子節點移到該節點原本的位置。
+* 如果欲刪除的節點下方有兩個子節點，先刪除該節點，往左子節點開始的樹中找出最大節點並移到被刪除的位置。
+```
+```Python
+def delete(self, root, target):
+    # 如果還找得到
+    while self.search(root, target) != None:
+        check_point = self.search(root, target)
+        # 沒有子節點
+        if check_point.left == None and check_point.right == None:
+            # 該節點刪除
+            check_point = None
+            return check_point
+        # 有一端有子節點
+        elif check_point.left != None and check_point.right == None:
+            # 子節點移上來
+            check_point = check_point.left
+            # 刪除
+            check_point.left = None
+            return check_point
+        # 有一端有子節點
+        elif check_point.right != None and check_point.left == None:
+            # 子節點移上來
+            check_point = check_point.right
+            # 刪除
+            check_point.right = None
+            return check_point
+        else: # check_point.right != None and check_point.left != None
+            # 找左子樹中最大子節點
+            left_max_node = self.search_left_max_target(check_point.left)
+            # 刪除&重整結構
+            return self.delete(check_point.left, left_max_node)
+            # 上移
+            check_point = left_max_node
+            return check_point
+
+def search_left_max_target(self, root):
+    if root.left == None and root.right == None:
+        return root
+    else:
+        # 取左子樹最大值
+        left_tree = self.bst_to_array(root)
+        return TreeNode(max(left_tree))
+
+# BST轉Array
+def bst_to_array(root):
+    array = []
+    while root != None:
+        array.append(root.val)
+        if root.left != None:
+            if root.left.left == None and root.left.right == None:
+                array.append(root.left.val)
+#                 root = None
+            else:
+                root = root.left
+                return bst_to_array(root)
+            print(array)
+        elif root.right != None:
+            if root.right.left == None and root.right.right == None:
+                array.append(root.right.val)
+#                 root = None
+            else:
+                root = root.right
+                return bst_to_array(root)
+            print(array)
+```
+ bst_to_array(root)發生問題：會變成無限迴圈。
+ <br>決定每次都只新增輸入的root進入Array。
+ ```Python
+ def bst_to_array(root):
+    if root != None:
+        array = []
+        array.append(root.val)
+
+    return array+bst_to_array(root.left)+bst_to_array(root.right)
+```
+錯誤：**UnboundLocalError: local variable 'array' referenced before assignment**
+<br>因為我把array放在if裡面，可是這時候會發生問題就是，假設現在root=None，那return裡的array他會找不到東西可以return。
+```Python
+def bst_to_array(self, root):
+    array=[]
+    if root != None:
+        array.append(root.val)
+        return array+bst_to_array(root.left)+bst_to_array(root.right)
+    else:
+        return array
+```
+改成這樣就成功可以將BST轉成Array了！接著來測試有沒有刪除成功。
+![image](https://images.plurk.com/2I0rUNcfikHtwLf0bhBo4m.png)
+沒有刪除成功（該刪除的節點還在BST內），因此來一步步釐清問題發生在哪。
+1. 先只看第一種刪除的情況──可以直接刪除
+```Python
+def delete(root, target):
+    while Solution().search(root, target) != None:
+        check_point = Solution().search(root, target)
+        print(check_point.val)
+        if check_point.left == None and check_point.right == None:
+            check_point = None
+            print(check_point)
+```
+While條件出錯，會變成無限迴圈。改轉成Array候用for來計算target的出現次數。
+```Python
+check = Solution().bst_to_array(root)
+count = 0
+for i in check:
+    if i == target:
+        count+=1
+```
+但修改過後，雖然不會變成無限迴圈了，但還是沒修改成功。假設改變check_point刪除時會等於什麼，也是一樣情況，所以很顯然並不是這個問題。
+```Python
+# 還是沒刪除成功
+def delete(root, target):
+    check = Solution().bst_to_array(root)
+    count = 0
+    for i in check:
+        if i == target:
+            count+=1
+    while count != 0:
+        check_point = Solution().search(root, target)
+        print(check_point.val)
+        if check_point.left == None and check_point.right == None:
+            check_point = check_point.left
+            print(check_point)
+            return check_point
+        count-=1
+```
+我應該是哪有設定錯誤，因此查詢資料後得知，我應該是要讓check_point的根結點指向check_point的位子，再變成None，而不是直接將check_point=None。
+> 參考資料：[Deleting a node from a BST --- Part 1 (easy cases)](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)、[Traversing/searching in a BST](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-search.html)
