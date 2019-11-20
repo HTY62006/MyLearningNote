@@ -215,6 +215,7 @@ def bst_to_array(self, root):
 ```
 改成這樣就成功可以將BST轉成Array了！接著來測試有沒有刪除成功。
 ![image](https://images.plurk.com/2I0rUNcfikHtwLf0bhBo4m.png)
+
 沒有刪除成功（該刪除的節點還在BST內），因此來一步步釐清問題發生在哪。
 1. 先只看第一種刪除的情況──可以直接刪除
 ```Python
@@ -254,3 +255,4 @@ def delete(root, target):
 ```
 我應該是哪有設定錯誤，因此查詢資料後得知，我應該是要讓check_point的根結點指向check_point的位子，再變成None，而不是直接將check_point=None。
 > 參考資料：[Deleting a node from a BST --- Part 1 (easy cases)](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)、[Traversing/searching in a BST](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-search.html)
+* 要刪除的值作為子節點，將他上一層的根節點的左方或右方指向None即可維持BST的正確性
