@@ -256,3 +256,85 @@ def delete(root, target):
 我應該是哪有設定錯誤，因此查詢資料後得知，我應該是要讓check_point的根結點指向check_point的位子，再變成None，而不是直接將check_point=None。
 > 參考資料：[Deleting a node from a BST --- Part 1 (easy cases)](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)、[Traversing/searching in a BST](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-search.html)
 * 要刪除的值作為子節點，將他上一層的根節點的左方或右方指向None即可維持BST的正確性
+```Python
+def delete(root, target):
+    check = Solution().bst_to_array(root)
+    count = 0
+    for i in check:
+        if i == target:
+            count+=1
+    while count != 0:
+        check_point = Solution().search(root, target)
+        print(check_point.val)
+        if check_point.left == None and check_point.right == None:
+            if check_point == root:
+                root = None
+#                 return
+            else:
+                r = parent_node(root, target)
+                if r.left == check_point:
+                    r.left = None
+                elif r.right == check_point:
+                    r.right = None
+#                 return
+        count-=1
+```
+嘗試將root.left或root.right指向None，有取代成功！
+2. 刪除情況2──下方還有一個子節點
+```Python
+def delete(root, target):
+    check = Solution().bst_to_array(root)
+    count = 0
+    for i in check:
+        if i == target:
+            count+=1
+    while count != 0:
+        check_point = Solution().search(root, target)
+        if check_point.left != None and check_point.right == None:
+            if check_point == root:
+                root = root.left
+            else:
+                r = parent_node(root, target)
+                if r.left == check_point:
+                    r.left = check_point.left
+                elif r.right == check_point:
+                    r.right = check_point.left
+        elif check_point.left == None and check_point.right != None:
+            if check_point == root:
+                root = root.right
+            else:
+                r = parent_node(root, target)
+                if r.left == check_point:
+                    r.left = check_point.right
+                elif r.right == check_point:
+                    r.right = check_point.right
+        count-=1
+```
+用與情況一相同的方式來將根節點指向要替代的子節點。
+3. 刪除情況3──下方有兩個子節點
+原本的想法：找出左子樹中最大值移到被取代的地方，如果該節點下方還有子樹，重複此動作（刪除）。
+```Python
+def delete(root, target):
+    check = Solution().bst_to_array(root)
+    count = 0
+    for i in check:
+        if i == target:
+            count+=1
+    while count != 0:
+        check_point = Solution().search(root, target)
+        if check_point.left != None and check_point.right != None:
+            left_max_node = Solution().search_left_max_target(check_point.left)
+            r = parent_node(root, target)
+            if r.left == check_point:
+                check_point.val = left_max_node
+                r.left = check_point
+                r.left.left = delete(check_point.left, left_max_node)
+            elif r.right == check_point:
+                check_point.val = left_max_node
+                r.right = check_point
+                r.right.left = delete(check_point.left, left_max_node)
+```
+但遇到問題是：
+* 直接對左子樹刪除→上移的話，會少考慮到一個數（因為我直接對每個左子樹的左子樹呼叫delete，最後只剩一個數的話會被誤刪）
+* 如果刪除最上方root，沒有刪除到
+
