@@ -30,3 +30,7 @@
 > 參考資料：[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.49~p.51、[Deleting a node from a BST --- Part 2 (the hard case)
 ](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete2.html)
 ## 修改
+1. 刪除指定值的節點。
+2. 插入指定值的節點。
+3. 需要符合binary search tree的結構。
+`作業要求：修改後的BST高度不能超過原本的高度`
