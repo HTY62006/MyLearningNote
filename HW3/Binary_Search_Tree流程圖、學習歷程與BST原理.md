@@ -280,7 +280,8 @@ def delete(root, target):
         count-=1
 ```
 嘗試將root.left或root.right指向None，有取代成功！
-刪除情況2──下方還有一個子節點
+
+2. 刪除情況2──下方還有一個子節點
 ```Python
 def delete(root, target):
     check = Solution().bst_to_array(root)
@@ -311,7 +312,9 @@ def delete(root, target):
         count-=1
 ```
 用與情況一相同的方式來將根節點指向要替代的子節點。
+
 3. 刪除情況3──下方有兩個子節點
+
 原本的想法：找出左子樹中最大值移到被取代的地方，如果該節點下方還有子樹，重複此動作（刪除）。
 ```Python
 def delete(root, target):
