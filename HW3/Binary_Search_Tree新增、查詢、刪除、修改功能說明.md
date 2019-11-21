@@ -24,6 +24,9 @@
 ## 刪除
 1. 符合條件的節點下方沒有子節點的話，直接刪除該節點。
 2. 如果欲刪除的節點下方還有一個子節點，先刪除該節點，然後再將子節點移到該節點原本的位置。
-3. 如果欲刪除的節點下方有兩個子節點，先刪除該節點，往左子節點開始的樹中找出最大節點並移到被刪除的位置。
-> 參考資料：[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.49~p.51
+3. 如果欲刪除的節點下方有兩個子節點，先刪除該節點，此時有兩種選擇。
+   1. 往左子節點開始的樹中找出最大節點並移到被刪除的位置。
+   2. 往右子節點開始的樹中找出最小節點並移到被刪除的位置。
+> 參考資料：[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.49~p.51Deleting a node from a BST --- Part 2 (the hard case)
+](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete2.html)
 ## 修改
