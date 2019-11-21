@@ -280,7 +280,7 @@ def delete(root, target):
         count-=1
 ```
 嘗試將root.left或root.right指向None，有取代成功！
-2. 刪除情況2──下方還有一個子節點
+刪除情況2──下方還有一個子節點
 ```Python
 def delete(root, target):
     check = Solution().bst_to_array(root)
