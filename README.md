@@ -2,7 +2,7 @@
 
 巨資三B 06170232 洪敦媛
 # 資料結構與演算法
-## 作業三：[Binary Search Tree](https://github.com/HTY62006/MyLearningNote/tree/master/HW3)
+
 ## 每週進度
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week2)
