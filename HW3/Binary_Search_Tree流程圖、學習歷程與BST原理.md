@@ -18,6 +18,13 @@
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/BST01.png)
 > 參考資料：[Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_title)、[[資料結構] 二元搜尋樹 (Binary Search Tree)](https://ithelp.ithome.com.tw/articles/10205875)
 ## 流程圖
+1. 新增
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/_20191122_231048.JPG)
+2. 刪除
+3. 查詢
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/_20191122_231111.JPG)
+4. 修改
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/DSC_0078.JPG)
 ## 學習歷程
 ### 新增
 我原本的想法：
