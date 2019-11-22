@@ -33,3 +33,12 @@
 2. 插入指定值的節點。
 3. 需要符合binary search tree的結構。
 `作業要求：修改後的BST高度不能超過原本的高度`
+
+## 參考資料總整理：
+* [Deleting a node from a BST --- Part 1 (easy cases)](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-delete.html)
+* [Traversing/searching in a BST](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/9-BinTree/BST-search.html)
+* [Binary Tree and Binary Search Tree in Data Structure](https://www.youtube.com/watch?v=7vw2iIdqHlM&feature=emb_title)
+* [[資料結構] 二元搜尋樹 (Binary Search Tree)](https://ithelp.ithome.com.tw/articles/10205875)
+* 演算法圖鑑p.47~p.52
+* [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+* [how to calculate the height of a BST in python](https://stackoverflow.com/questions/21011423/how-to-calculate-the-height-of-a-bst-in-python)
