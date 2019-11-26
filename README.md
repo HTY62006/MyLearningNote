@@ -38,6 +38,8 @@
      * 作業三：[Binary Search Tree](https://github.com/HTY62006/MyLearningNote/tree/master/HW3)
    * Week10:
      * Red Black Tree
+   * Week11:
+     * 作業四：[Hash Table](https://github.com/HTY62006/MyLearningNote/tree/master/HW)
 
 
 
