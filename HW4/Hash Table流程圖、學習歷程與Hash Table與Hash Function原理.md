@@ -22,10 +22,13 @@
 > 參考資料：[[資料結構] 雜湊 (Hash)](https://ithelp.ithome.com.tw/articles/10208884)、演算法圖鑑p.128~p.131
 ## 流程圖
 1. add
+
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT01.png)
 2. remove
+
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT02.png)
 3. contains
+
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT03.png)
 ## 學習歷程
 1. add
