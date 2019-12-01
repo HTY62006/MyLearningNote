@@ -26,6 +26,7 @@
 2. remove
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT02.png)
 3. contains
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT03.png)
 ## 學習歷程
 1. add
 先將key以MD5加密，存取的busket的位子判定以輸入的capacity來決定，先將其轉為16進位，再去除以capacity以得到餘數。（餘數 = bucket）
@@ -86,6 +87,7 @@ else:
         self.data[bucket] = None
 ```
 針對此段作出修改，測試後目前此段無誤。
+
 3. contains
 原本的想法：用for迴圈去查每個位子的ˋ值是否有和key一致的，有的話回傳True，沒的話回傳False。
 ```Python
