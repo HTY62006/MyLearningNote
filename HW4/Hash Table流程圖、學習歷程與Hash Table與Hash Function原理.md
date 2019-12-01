@@ -22,7 +22,7 @@
 > 參考資料：[[資料結構] 雜湊 (Hash)](https://ithelp.ithome.com.tw/articles/10208884)、演算法圖鑑p.128~p.131
 ## 流程圖
 1. add
-![image](https://images.plurk.com/65IY93Bgwzv6AAXKyQdisK.png)
+![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT01.png)
 2. remove
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT02.png)
 3. contains
@@ -154,6 +154,9 @@ while now.next != None:
 now.next = new
 ```
 將prev移除後，直接以now來試試看。add在建造linked list時不會出現這個錯誤。進而在運行contains時，原先回傳有誤的情況已解決。
+
+測試結果：
+![image](https://images.plurk.com/NJ3eGdU02c2q3jUAVv5qK.png)
 ## 參考資料總整理：
 * [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
 * [[資料結構] 雜湊 (Hash)](https://ithelp.ithome.com.tw/articles/10208884)
