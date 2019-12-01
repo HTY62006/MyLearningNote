@@ -1,9 +1,9 @@
 # Hash Table
 ## 目錄
-* Hash Table和Hash Function原理
-* 流程圖
-* 學習歷程
-* 參考資料總整理
+* [Hash Table和Hash Function原理](https://github.com/HTY62006/MyLearningNote/blob/master/HW4/Hash%20Table%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Hash%20Table%E8%88%87Hash%20Function%E5%8E%9F%E7%90%86.md#hash-table%E5%92%8Chash-function%E5%8E%9F%E7%90%86)
+* [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW4/Hash%20Table%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Hash%20Table%E8%88%87Hash%20Function%E5%8E%9F%E7%90%86.md#%E6%B5%81%E7%A8%8B%E5%9C%96)
+* [學習歷程](https://github.com/HTY62006/MyLearningNote/blob/master/HW4/Hash%20Table%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Hash%20Table%E8%88%87Hash%20Function%E5%8E%9F%E7%90%86.md#%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B)
+* [參考資料總整理](https://github.com/HTY62006/MyLearningNote/blob/master/HW4/Hash%20Table%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Hash%20Table%E8%88%87Hash%20Function%E5%8E%9F%E7%90%86.md#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99%E7%B8%BD%E6%95%B4%E7%90%86)
 ## Hash Table和Hash Function原理
 ### Hash Table
 根據Key來存放雜湊值，稱為Hash Table。
@@ -24,6 +24,7 @@
 1. add
 
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT01.png)
+
 2. remove
 
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT02.png)
