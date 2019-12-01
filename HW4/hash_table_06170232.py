@@ -87,3 +87,8 @@ class MyHashSet:
                 return False
         else:
             return False
+
+# 參考資料總整理：
+# [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
+# [[資料結構] 雜湊 (Hash)](https://ithelp.ithome.com.tw/articles/10208884)
+# 演算法圖鑑p.128~p.131
