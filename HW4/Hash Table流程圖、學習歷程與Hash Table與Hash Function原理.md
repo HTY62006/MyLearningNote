@@ -160,6 +160,7 @@ now.next = new
 將prev移除後，直接以now來試試看。add在建造linked list時不會出現這個錯誤。進而在運行contains時，原先回傳有誤的情況已解決。
 
 測試結果：
+
 ![image](https://images.plurk.com/NJ3eGdU02c2q3jUAVv5qK.png)
 ## 參考資料總整理：
 * [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
