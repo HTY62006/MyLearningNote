@@ -33,13 +33,13 @@
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/HT03.png)
 ## 學習歷程
 1. add
-先將key以MD5加密，存取的busket的位子判定以輸入的capacity來決定，先將其轉為16進位，再去除以capacity以得到餘數。（餘數 = bucket）
+先將key以MD5加密，存取的busket的位子判定以輸入的capacity來決定，先將其轉為10進位，再去除以capacity以得到餘數。（餘數 = bucket）
 ```Python
 def add(self, key):
     # 要用MD5加密儲存資料
     h = MD5.new()
     h.update(key.encode("utf-8"))
-    # 16進位
+    # 16進位轉10進位
     bucket = int(h.hexdigest() , 16)%self.Acapacity
     if self.data[bucket] == None:
         self.data[bucket] = ListNode(h)
