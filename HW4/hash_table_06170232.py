@@ -24,7 +24,7 @@ class MyHashSet:
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
-        # 採16進位
+        # MD5是16進位，轉成10進位
         bucket = int(h , 16)%self.capacity
         if self.data[bucket] == None:
             self.data[bucket] = ListNode(h)
