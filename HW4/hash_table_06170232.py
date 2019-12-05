@@ -1,4 +1,3 @@
-from Cryptodome.Hash import MD5
 class ListNode:
     def __init__(self, val):
         self.val = val
@@ -21,6 +20,7 @@ class MyHashSet:
         :type key: str
         :rtype: None
         """
+        from Cryptodome.Hash import MD5
         # 要用MD5加密儲存資料
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -41,6 +41,7 @@ class MyHashSet:
         :type key: str
         :rtype: None
         """
+        from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
@@ -71,6 +72,7 @@ class MyHashSet:
         :type key: str
         :rtype: bool(True or False)
         """
+        from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
