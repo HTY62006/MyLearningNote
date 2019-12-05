@@ -2,30 +2,15 @@ class ListNode:
     def __init__(self, val):
         self.val = val
         self.next = None
-        """
-        :type val: int
-        :type next: ListNode
-        :rtype: None        
-        """
 class MyHashSet:
     def __init__(self, capacity=5):
         self.capacity = capacity
         self.data = [None] * capacity
-        """
-        :type capacity: int
-        :rtype: None
-        """
     def add(self, key):
-        """
-        :type key: str
-        :rtype: None
-        """
         from Cryptodome.Hash import MD5
-        # 要用MD5加密儲存資料
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
-        # MD5是16進位，轉成10進位
         bucket = int(h , 16)%self.capacity
         if self.data[bucket] == None:
             self.data[bucket] = ListNode(h)
@@ -37,10 +22,6 @@ class MyHashSet:
             now.next = new
 
     def remove(self, key):
-        """
-        :type key: str
-        :rtype: None
-        """
         from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -63,15 +44,10 @@ class MyHashSet:
             else:
                 if del_bucket.val == h:
                     self.data[bucket] = None
-        # 相同質移除
         if self.contains(key) == True:
             self.remove(key)
 
     def contains(self, key):
-        """
-        :type key: str
-        :rtype: bool(True or False)
-        """
         from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -83,7 +59,6 @@ class MyHashSet:
                 node = node.next
                 if node.val == h:
                     break
-#                 print(node.val)
             if node.val == h:
                 return True
             else:
