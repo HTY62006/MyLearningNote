@@ -1,3 +1,4 @@
+from Cryptodome.Hash import MD5
 class ListNode:
     def __init__(self, val):
         self.val = val
@@ -7,7 +8,6 @@ class MyHashSet:
         self.capacity = capacity
         self.data = [None] * capacity
     def add(self, key):
-        from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
@@ -22,7 +22,6 @@ class MyHashSet:
             now.next = new
 
     def remove(self, key):
-        from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
@@ -48,7 +47,6 @@ class MyHashSet:
             self.remove(key)
 
     def contains(self, key):
-        from Cryptodome.Hash import MD5
         h = MD5.new()
         h.update(key.encode("utf-8"))
         h = h.hexdigest()
