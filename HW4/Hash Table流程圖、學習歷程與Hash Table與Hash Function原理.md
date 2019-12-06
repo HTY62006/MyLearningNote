@@ -164,7 +164,7 @@ now.next = new
 ![image](https://images.plurk.com/NJ3eGdU02c2q3jUAVv5qK.png)
 #### 12/06更新：
 **檢查時發現remove和contains有誤。**
-1. 假設現在capacity=16，pig和cat都會在[8]的位子。(pig→cat)
+1. 假設現在capacity=16，pig和cat都會在[8]的位子。(pig→cat或pig→cat→pig)
    * 移除cat→→→回傳錯誤`RecursionError: maximum recursion depth exceeded while calling a Python object`
    * 查詢pig→→→若沒刪的話該return True，卻return False。
 2. 發現是使用的while迴圈會少判斷條件，因此補上if來將查詢第一個值會有遺漏的情況解決掉。
