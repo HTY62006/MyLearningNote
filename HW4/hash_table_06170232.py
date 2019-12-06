@@ -26,19 +26,21 @@ class MyHashSet:
         h = h.hexdigest()
         bucket = int(h , 16)%self.capacity
         del_bucket = self.data[bucket]
-        prev = del_bucket
         if del_bucket != None:
             if del_bucket.next != None:
                 if del_bucket.val == h:
                     self.data[bucket] = del_bucket.next
                 else:
-                    prev = del_bucket
                     while del_bucket.next:
-                        if del_bucket == h:
+                        if del_bucket.val == h:
                             prev.next = del_bucket.next
+                            del_bucket = del_bucket.next
                         else:
                             prev = del_bucket
                             del_bucket = del_bucket.next
+                    if del_bucket.next == None:
+                        if del_bucket.val == h:
+                            prev.next = del_bucket.next
             else:
                 if del_bucket.val == h:
                     self.data[bucket] = None
@@ -51,14 +53,17 @@ class MyHashSet:
         bucket = int(h , 16)%self.capacity
         if self.data[bucket] != None:
             node = self.data[bucket]
-            while node.next != None:
-                node = node.next
-                if node.val == h:
-                    break
             if node.val == h:
                 return True
             else:
-                return False
+                while node.next != None:
+                    node = node.next
+                    if node.val == h:
+                        break
+                if node.val == h:
+                    return True
+                else:
+                    return False
         else:
             return False
 # 參考資料總整理：
