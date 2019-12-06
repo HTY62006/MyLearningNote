@@ -39,7 +39,11 @@
    * Week10:
      * Red Black Tree
    * Week11:
-     * 作業四：[Hash Table](https://github.com/HTY62006/MyLearningNote/tree/master/HW)
+     * 作業四：[Hash Table](https://github.com/HTY62006/MyLearningNote/tree/master/HW4)
+   * Week12:
+     * [BFS](ttps://github.com/HTY62006/MyLearningNote/tree/master/HW5)
+   * Week13:
+     * [DFS](https://github.com/HTY62006/MyLearningNote/tree/master/HW5)
 
 
 
