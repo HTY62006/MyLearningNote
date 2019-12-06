@@ -162,6 +162,77 @@ now.next = new
 測試結果：
 
 ![image](https://images.plurk.com/NJ3eGdU02c2q3jUAVv5qK.png)
+#### 12/06更新：
+**檢查時發現remove和contains有誤。**
+1. 假設現在capacity=16，pig和cat都會在[8]的位子。(pig→cat)
+   * 移除cat→→→回傳錯誤`RecursionError: maximum recursion depth exceeded while calling a Python object`
+   * 查詢pig→→→若沒刪的話該return True，卻return False。
+2. 發現是使用的while迴圈會少判斷條件，因此補上if來將查詢第一個值會有遺漏的情況解決掉。
+```Python
+if node.val == h:
+    return True
+else:
+    while node.next != None:
+        node = node.next
+        if node.val == h:
+            break
+    if node.val == h:
+        return True
+    else:
+        return False
+```
+3. remove出問題的地方加上print檢查，發現是這段出現問題。
+```Python
+while del_bucket.next:
+   if del_bucket.val == h:
+       prev.next = del_bucket.next
+   else:
+       prev = del_bucket
+       del_bucket = del_bucket.next
+```
+一直在else的部分無法進入if的部分，另外以Linked List測試這個while迴圈。
+```Python
+Node1 = ListNode('A')
+Node2 = ListNode('B')
+Node3 = ListNode('C')
+Node4 = ListNode('D')
+Node1.next = Node2
+Node2.next = Node3
+Node3.next = Node4
+
+# prev = Node1
+Node = Node1
+while Node.next != None:
+    if Node.val == 'D':
+        prev.next = Node.next
+#         print('S')
+        Node= Node.next
+    else:
+        prev = Node
+        Node = Node.next
+        print(prev.val, Node.val)
+if Node.next == None:
+    if Node.val == 'D':
+        prev.next = Node.next
+        print(prev.val, Node.val)
+
+```
+發現是我的if少條件，以及Node.next=None時會沒判斷到，導致while迴圈無法結束。因此針對此部分做出修改。
+```Python
+if del_bucket.val == h:
+self.data[bucket] = del_bucket.next
+else:
+while del_bucket.next:
+   if del_bucket.val == h:
+       prev.next = del_bucket.next
+       del_bucket = del_bucket.next
+   else:
+       prev = del_bucket
+       del_bucket = del_bucket.next
+if del_bucket.next == None:
+   if del_bucket.val == h:
+       prev.next = del_bucket.next
+```
 ## 參考資料總整理：
 * [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
 * [[資料結構] 雜湊 (Hash)](https://ithelp.ithome.com.tw/articles/10208884)
