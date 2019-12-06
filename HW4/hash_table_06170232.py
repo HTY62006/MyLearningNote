@@ -20,7 +20,6 @@ class MyHashSet:
             while now.next != None:
                 now = now.next
             now.next = new
-
     def remove(self, key):
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -45,7 +44,6 @@ class MyHashSet:
                     self.data[bucket] = None
         if self.contains(key) == True:
             self.remove(key)
-
     def contains(self, key):
         h = MD5.new()
         h.update(key.encode("utf-8"))
@@ -63,7 +61,6 @@ class MyHashSet:
                 return False
         else:
             return False
-
 # 參考資料總整理：
 # [Hash Table：Intro(簡介)](http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html)
 # [[資料結構] 雜湊 (Hash)](https://ithelp.ithome.com.tw/articles/10208884)
