@@ -42,5 +42,6 @@ class Graph:
 # 1. [上課簡報](https://docs.google.com/presentation/d/e/2PACX-1vTma_vOZyE70O23KWw4I4Y78aAaT5fJSTq7Mae912kCwka_u5ZMWPoo14D86-x-57kZPbb6hAGktSW4/pub?start=false&loop=false&delayms=3000&slide=id.g7a5d8b85ee_0_23)
 # 2. 演算法圖鑑p.96~p.99
 # 3. [The Depth First Search Graph traversal algorithm](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/11-Graph/dfs.html)
-# 4. [The Breadth First Search Graph traversal algorithm
-# ](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/11-Graph/bfs.html)
+# 4. [The Breadth First Search Graph traversal algorithm](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/11-Graph/bfs.html)
+# 5. [Difference Between BFS and DFS(techdifferences)](https://techdifferences.com/difference-between-bfs-and-dfs.html)
+# 6. [Difference Between BFS and DFS(geeksforgeeks)](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
