@@ -33,6 +33,16 @@ Depth-First-Search，深度優先搜尋。
 * BFS是立即訪問到該點可訪問到的點並標記。
 * DFS是先遇到的點先訪問，且每個臨點都是新的搜尋起點。
 * 共通點是「直到所有相連的點」都走訪過。
+> 參考資料：[Difference Between BFS and DFS(techdifferences)](https://techdifferences.com/difference-between-bfs-and-dfs.html)、[Difference Between BFS and DFS(geeksforgeeks)](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
+
+在參考上述網站後，發現兩者之間還有些不同。
+
+比較    | BFS | DFS
+--------|-----|--------------------
+效率 | 低效 | 高效
+最佳性 | 最適合用來找最短路徑 | 不是最佳
+時間複雜度 | O(V + E) | O(V + E)
+
 ## 流程圖
 ### BFS
 ![image](https://images.plurk.com/5p2wlLCtoFK1K3oV0weyWl.jpg)
@@ -71,7 +81,7 @@ retrun state2
 ](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/11-Graph/bfs.html)
 >> enqueue(進入)、dequeue(離開)
 
-換了一個測值進行測試，出現問題是已經加入的點會被重複加入。檢查後發現是因為我的程式會造成我有些點已經加入state2，但尚未被標成造訪過，所以加上條件排除這個情況。
+換了一個測值進行測試，出現問題是已經加入的點會被重複加入。檢查後發現是因為我的程式會造成我有些點已經加入state2，但尚未被標成造訪過，所以加上條件排除這個情況。我是使用`.count()`來計算該點是否已在state2中。
 
 修改過後：
 ```Python
@@ -139,3 +149,5 @@ return state2
 3. [The Depth First Search Graph traversal algorithm](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/11-Graph/dfs.html)
 4. [The Breadth First Search Graph traversal algorithm
 ](http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/11-Graph/bfs.html)
+5. [Difference Between BFS and DFS(techdifferences)](https://techdifferences.com/difference-between-bfs-and-dfs.html)
+6. [Difference Between BFS and DFS(geeksforgeeks)](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
