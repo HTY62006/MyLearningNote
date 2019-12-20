@@ -1,8 +1,8 @@
 # BFS and DFS
 ## 目錄
-* 原理與比較
-* 流程圖
-* 學習歷程
+* [原理與比較](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS%26DFS.md#%E5%8E%9F%E7%90%86%E8%88%87%E6%AF%94%E8%BC%83)
+* [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS%26DFS.md#%E6%B5%81%E7%A8%8B%E5%9C%96)
+* [學習歷程](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS%26DFS.md#%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B)
 ## 原理與比較
 ### BFS原理
 Breadth-First-Search，廣度優先搜尋。
