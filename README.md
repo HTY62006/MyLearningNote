@@ -41,12 +41,13 @@
    * Week11:
      * 作業四：[Hash Table](https://github.com/HTY62006/MyLearningNote/tree/master/HW4)
    * Week12:
-     * [BFS](ttps://github.com/HTY62006/MyLearningNote/tree/master/HW5)
+     * [BFS](https://github.com/HTY62006/MyLearningNote/tree/master/HW5)
    * Week13:
      * [DFS](https://github.com/HTY62006/MyLearningNote/tree/master/HW5)
-
-
-
+   * Week14:
+     * Minimum Spanning Tree
+   * Week15:
+     * Shortest Path
 ## Leetcode自我練習
    * [1. Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/1.%20Two%20Sum.py)
    * [7. Reverse Integer](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/7.%20Reverse%20Integer.py)
