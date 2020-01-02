@@ -5,16 +5,16 @@
 
 ## 每週進度
    * Week2: 
-     * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week2)
-       * [Design Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Week2/707.%20Design%20Linked%20List.py)
+     * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week02)
+       * [Design Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Week02/707.%20Design%20Linked%20List.py)
    * Week3: 
-     * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Week3)
-       * [Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Week3/155.%20Min%20Stack.py)
+     * [Stack and Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Week03)
+       * [Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Week03/155.%20Min%20Stack.py)
        * [Implement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/blob/master/Week3/232.%20Implement%20Queue%20using%20Stacks.py)
    * Week4:
-     * [Set and Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Week4)
-       * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/645.%20Set%20Mismatch.py)
-       * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Week4/147.%20Insertion%20Sort%20List.py)
+     * [Set and Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Week04)
+       * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Week04/645.%20Set%20Mismatch.py)
+       * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Week04/147.%20Insertion%20Sort%20List.py)
    * Week5: *國慶放假*
      * [作業一：Quick Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW1)
        * [Quick Sort(github)](https://github.com/HTY62006/MyLearningNote/blob/master/HW1/Quick_Sort_%E6%94%B9%E5%AF%AB.ipynb)
@@ -22,7 +22,7 @@
        * [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW1:%20Quick%20Sort/Quick_Sort.png)
      * [其他練習](https://github.com/HTY62006/MyLearningNote/tree/master/Week5)
    * Week6:
-     * [Heap](https://github.com/HTY62006/MyLearningNote/tree/master/Week6)
+     * [Heap](https://github.com/HTY62006/MyLearningNote/tree/master/Week06)
    * Week7:
      * 作業二：[Heap Sort & Merge Sort](https://github.com/HTY62006/MyLearningNote/tree/master/HW2)
        * Heap Sort
@@ -33,7 +33,7 @@
          * [流程圖、學習歷程與文字說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md)
        * [Merge Sort\Heap Sort之比較](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge%20Sort%5CHeap%20Sort%E4%B9%8B%E6%AF%94%E8%BC%83.md)
    * Week8:
-     * [Binary Tree](https://github.com/HTY62006/MyLearningNote/tree/master/Week8)
+     * [Binary Tree](https://github.com/HTY62006/MyLearningNote/tree/master/Week08)
    * Week9:
      * 作業三：[Binary Search Tree](https://github.com/HTY62006/MyLearningNote/tree/master/HW3)
    * Week10:
