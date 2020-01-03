@@ -119,4 +119,5 @@ class Graph():
 #2. [戴克斯特拉算法](https://bit.ly/2MvNGXl)
 #3. [代克思托演算法 (Dijkstra's algorithm)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dijkstra.html)
 #4. [Cycle in Undirected Graph Graph Algorithm](https://www.youtube.com/watch?v=n_t0a_8H8VY&t=163s)
-#5. [[101北一資訊集訓] 06_3_1 MST之Kruskal演算法(NEW)](https://www.youtube.com/watch?v=wuU4DDEUu1w&t=542s)、[Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
+#5. [[101北一資訊集訓] 06_3_1 MST之Kruskal演算法(NEW)](https://www.youtube.com/watch?v=wuU4DDEUu1w&t=542s)
+#6. [Python 初學第十講 — 排序](https://medium.com/ccclub/ccclub-python-for-beginners-tutorial-f3148ebb33a4)
