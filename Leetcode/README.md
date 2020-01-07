@@ -1,4 +1,17 @@
 # Leetcode
+## 目錄
+* [Week2: Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#week2-linked-list)
+  * [簡介](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#%E7%B0%A1%E4%BB%8B)
+  * [Design Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#design-linked-list)
+* [Week3: Stack and Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#week3-stack-and-queue)
+  * [Stack](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#stack)
+  * [Queue](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#queue)
+  * [Min Stack](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#min-stack)
+  * [Imolement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#implement-queue-using-stacks)
+* [Week4: Set and Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#week4-set-and-insertion-sort)
+  * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#set-mismatch)
+  * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#insertion-sort)
+  * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#insertion-sort-list)
 ## Week2: Linked List
 Leetcode練習題：707. Design Linked List
 ## 簡介
@@ -186,7 +199,7 @@ Insertion Sort（插入排序法）：
 * 橘色：已排序的資料
 * 白色：正在處理的資料
 > 參考：[【演算法】插入排序法(Insertion Sort)](http://notepad.yehyeh.net/Content/Algorithm/Sort/Insertion/1.php)
-## [↑回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week4#%E7%9B%AE%E9%8C%84)
+
 ## Insertion Sort List
 ### 需求
 使用Insertion Sort對Linke list進行排序。
