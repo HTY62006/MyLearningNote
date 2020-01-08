@@ -12,7 +12,7 @@
   * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#set-mismatch)
   * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#insertion-sort)
   * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#insertion-sort-list)
-* [其他自主練習]
+* [其他自主練習](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#%E5%85%B6%E4%BB%96%E8%87%AA%E4%B8%BB%E7%B7%B4%E7%BF%92)
 ## Week2: Linked List
 Leetcode練習題：[707. Design Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/707_Design%20Linked%20List_06170232.py)
 ## 簡介
