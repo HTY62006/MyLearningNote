@@ -1,8 +1,14 @@
-# MyLearningNote
-
-巨資三B 06170232 洪敦媛
-# 資料結構與演算法
-
+# 資料結構與演算法(My Learning Note)
+## 關於我
+* 姓名：洪敦媛
+* 就讀學校：東吳大學
+* 主修：巨量資料管理
+* 常用程式語言：Python
+* 電子郵件：06170232@gm.scu.edu.tw
+## 目錄
+* 每週進度
+* 自學
+* 心得
 ## 每週進度
    * Week2: 
      * [Linked List](https://github.com/HTY62006/MyLearningNote/tree/master/Week02)
@@ -48,15 +54,3 @@
      * Minimum Spanning Tree
    * Week15:
      * Shortest Path
-## Leetcode自我練習
-   * [1. Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/1.%20Two%20Sum.py)
-   * [7. Reverse Integer](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/7.%20Reverse%20Integer.py)
-   * [21. Merge Two Sorted Lists](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week2/21.%20Merge%20Two%20Sorted%20Lists.py)
-   * [26. Remove Duplicates from Sorted Array](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)
-   * [190. Reverse Bits](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/190.%20Reverse%20Bits.py)
-   * [191. Number of 1 Bits](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week3/191.%20Number%20of%201%20Bits.py)
-   * [231. Power of Two](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/231.%20Power%20of%20Two.py)
-   * [326. Power of Three](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/326.%20Power%20of%20Three.py)
-   * [342. Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/week4/342.%20Power%20of%20Four.py)
-
-
