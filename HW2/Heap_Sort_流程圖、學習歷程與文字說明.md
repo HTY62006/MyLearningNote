@@ -9,7 +9,7 @@
 * [流程圖](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md#%E6%B5%81%E7%A8%8B%E5%9C%96)
 ## 文字說明
 ### Heap觀念
-對於Heap的觀念詳細說明---->[【請點我】](https://github.com/HTY62006/MyLearningNote/blob/master/Week6/README.md)
+對於Heap的觀念詳細說明---->[【請點我】](https://github.com/HTY62006/MyLearningNote/blob/master/Other/heap.md)
 #### 重點整理
 1. Heap是一種樹狀結構。
 2. 視max heap或min heap的不同，呈現兩種情況：
