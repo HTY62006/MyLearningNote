@@ -12,8 +12,9 @@
   * [Set Mismatch](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#set-mismatch)
   * [Insertion Sort](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#insertion-sort)
   * [Insertion Sort List](https://github.com/HTY62006/MyLearningNote/tree/master/Leetcode#insertion-sort-list)
+* [其他自主練習]
 ## Week2: Linked List
-Leetcode練習題：707. Design Linked List
+Leetcode練習題：[707. Design Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/707_Design%20Linked%20List_06170232.py)
 ## 簡介
 ![image](https://images.plurk.com/3WmW9M1NCnoNrKKQ8pYY2T.png)
 
@@ -44,7 +45,7 @@ Linked list是不連續的，故可有效利用記憶體的空間。
 5. `addAtIndex(index, val)`是若Linked list為空或index=0時，直接以`addAtHead(val)`來處理；若index>0，則創建值為val的新節點，將其插入對應位置。
 6. `deleteAtIndex(index)`若長度為0，直接將Linked list化為空值；若index=0，則將該節點其後的節點直接設為self.head。其餘除不存在之情況，則將指定index對應的值刪除。
 ## Week3: Stack and Queue
-Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
+Leetcode練習題：[155. Min Stack](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/155_Min%20Stack_06170232.py)、[232. Implement Queue using Stacks](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/232_Implement%20Queue%20using%20Stacks_06170232.py)
 ### Stack
 #### 為什麼要有Stack？
   * 編譯器(word、sublime)的 undo 。
@@ -147,7 +148,7 @@ Leetcode練習題：155. Min Stack、232. Implement Queue using Stacks
    ```
 ## Week4: Set and Insertion Sort
 ## Set Mismatch
-Leetcode練習題：645. Set Mismatch
+Leetcode練習題：[645. Set Mismatch](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/645_Set%20Mismatch_06170232.py)
 ### 需求
 nums應為一個內容為1~n的list：nums = [1, 2, 3, 4,..., n]。
 1. 回傳nums的重複項
@@ -184,7 +185,7 @@ Output: [2,3]
    ```
 5. 最後可回傳結果為[2,3]
 ## Insertion Sort
-Leetcode練習題：147. Insertion Sort List
+Leetcode練習題：[147. Insertion Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/147_Insertion%20Sort%20List_06170232.py)
 ## 簡介
 Insertion Sort（插入排序法）：
 1. 將資料分為**已排序**與**未排序**。
@@ -258,5 +259,16 @@ Insertion Sort（插入排序法）：
 ## 解題說明圖(Insertion Sort List)
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/IS02.png)
 [點此可看大圖](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/IS02.png)
-
+## 其他自主練習
+題號 | 題目名稱
+-----|---------
+1 | [Two Sum](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/1_Two%20Sum_06170232.py)
+7 | [Reverse Integer](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/7_Reverse%20Integer_06170232.py)
+21 | [Merge Two Sorted Lists](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/21_Merge%20Two%20Sorted%20Lists_06170232.py)
+26 | [Remove Duplicates from Sorted Array](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/26_Remove%20Duplicates%20from%20Sorted%20Array_06170232.py)
+190 | [Reverse Bits](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/190_Reverse%20Bits_06170232.py)
+191 | [Number of 1 Bits](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/191_Number%20of%201%20Bits_06170232.py)
+231 | [Power of Two](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/231_Power%20of%20Two_06170232.py)
+326 | [Power of Three](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/326_Power%20of%20Three_06170232.py)
+342 | [Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/342_Power%20of%20Four_06170232.py)
 ## [回首頁](https://github.com/HTY62006/MyLearningNote)
