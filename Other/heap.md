@@ -36,7 +36,5 @@ Heap，堆積，為一種**樹狀結構**。每個頂點稱為節點(Node)，值
 ```
 > 參考資料：[[資料結構]堆積(Heap)](https://ithelp.ithome.com.tw/articles/10206479)、[演算法圖鑑](https://www.books.com.tw/products/0010771263)p.42~p.45
 ### Python的heapq套件
-[【練習】](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/Week6/heapq.ipynb)
+[【練習】](https://nbviewer.jupyter.org/github/HTY62006/MyLearningNote/blob/master/Other/heapq.ipynb)
 > 參考資料：[Python heapq.heapify() Examples](https://www.programcreek.com/python/example/2770/heapq.heapify)、[heapq --- 堆積佇列 (heap queue) 演算法](https://docs.python.org/zh-tw/3/library/heapq.html)
-## [回目錄](https://github.com/HTY62006/MyLearningNote/tree/master/Week6#%E7%9B%AE%E9%8C%84)
-# [回首頁](https://github.com/HTY62006/MyLearningNote)
