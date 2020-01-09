@@ -7,12 +7,12 @@
 * 常用程式語言：Python
 * 電子郵件：06170232@gm.scu.edu.tw
 ## 目錄
-* 每週進度
-* 自學
-  * CodeSignal
-  * Leetcode
-  * CS50
-* 課程心得
+* [每週進度](https://github.com/HTY62006/MyLearningNote#%E6%AF%8F%E9%80%B1%E9%80%B2%E5%BA%A6)
+* [自學](https://github.com/HTY62006/MyLearningNote#%E8%87%AA%E5%AD%B8)
+  * [CodeSignal](https://github.com/HTY62006/MyLearningNote#codesignal)
+  * [Leetcode](https://github.com/HTY62006/MyLearningNote#leetcode)
+  * [CS50](https://github.com/HTY62006/MyLearningNote#cs50)
+* [課程心得](https://github.com/HTY62006/MyLearningNote#%E8%AA%B2%E7%A8%8B%E5%BF%83%E5%BE%97)
 ## 每週進度
 * **Week1:** 課程介紹
 * **Week2:** Linked List
