@@ -259,6 +259,8 @@ Insertion Sort（插入排序法）：
 ## 解題說明圖(Insertion Sort List)
 ![image](https://github.com/HTY62006/MyLearningNote/blob/master/large_image/IS02.png)
 [點此可看大圖](https://raw.githubusercontent.com/HTY62006/MyLearningNote/master/large_image/IS02.png)
+## Week6: Quick Sort
+Leetcode練習題：[148. Sort List](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/148_Sort%20List_06170232.py)
 ## 其他自主練習
 題號 | 題目名稱
 -----|---------
