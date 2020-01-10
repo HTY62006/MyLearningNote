@@ -6,5 +6,5 @@
 ```Text
 流程圖未貼上Kruskal的圖片連結，在此補充。
 ```
-![image]()
+![image](https://images.plurk.com/58sosBBRaqi4JW7KJtXnZT.jpg)
 * [程式碼](https://github.com/HTY62006/MyLearningNote/blob/master/HW6/Dijkstra_06170232.py)
