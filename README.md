@@ -35,20 +35,38 @@
     * [Heap練習](https://github.com/HTY62006/MyLearningNote/blob/master/Other/heap.py)
     * [套件heapq練習](https://github.com/HTY62006/MyLearningNote/blob/master/Other/heapq.ipynb)
   * [作業二](https://github.com/HTY62006/MyLearningNote/blob/master/HW2)
+    * [Heap Sort說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Heap_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md)
+    * [Heap Sort](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/heap_sort_06170232.py)
+    * [Merge Sort說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge_Sort_%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87%E6%96%87%E5%AD%97%E8%AA%AA%E6%98%8E.md)
+    * [Merge Sort](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/merge_sort_06170232.py)
+    * [比較](https://github.com/HTY62006/MyLearningNote/blob/master/HW2/Merge%20Sort%5CHeap%20Sort%E4%B9%8B%E6%AF%94%E8%BC%83.md)
 * **Week8:** Binary Tree
 * **Week9:** Binary Search Tree
   * [作業三](https://github.com/HTY62006/MyLearningNote/blob/master/HW3)
+    * [BST說明1](https://github.com/HTY62006/MyLearningNote/blob/master/HW3/Binary_Search_Tree%E6%96%B0%E5%A2%9E%E3%80%81%E6%9F%A5%E8%A9%A2%E3%80%81%E5%88%AA%E9%99%A4%E3%80%81%E4%BF%AE%E6%94%B9%E5%8A%9F%E8%83%BD%E8%AA%AA%E6%98%8E.md)
+    * [BST說明2](https://github.com/HTY62006/MyLearningNote/blob/master/HW3/Binary_Search_Tree%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87BST%E5%8E%9F%E7%90%86.md)
+    * [BST](https://github.com/HTY62006/MyLearningNote/blob/master/HW3/binary_search_tree_06170232.py)
 * **Week10:** Red Black Tree
 * **Week11:** Hash Table and MD5
   * [作業四](https://github.com/HTY62006/MyLearningNote/blob/master/HW4)
+    * [Hash Table說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW4/Hash%20Table%E6%B5%81%E7%A8%8B%E5%9C%96%E3%80%81%E5%AD%B8%E7%BF%92%E6%AD%B7%E7%A8%8B%E8%88%87Hash%20Table%E8%88%87Hash%20Function%E5%8E%9F%E7%90%86.md)
+    * [Hash Table](https://github.com/HTY62006/MyLearningNote/blob/master/HW4/hash_table_06170232.py)
 * **Week12:** Breadth-First Search
   * [作業五](https://github.com/HTY62006/MyLearningNote/blob/master/HW5)
+    * [BFS說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS%26DFS.md)
+    * [BFS](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS_06170232.py)
 * **Week13:** Depth-First Search
   * [作業五](https://github.com/HTY62006/MyLearningNote/blob/master/HW5)
+    * [DFS說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS%26DFS.md)
+    * [DFS](https://github.com/HTY62006/MyLearningNote/blob/master/HW5/BFS_06170232.py)
 * **Week14:** Minimum Spanning Tree
   * [作業六](https://github.com/HTY62006/MyLearningNote/blob/master/HW6)
+    * [Minimum Spanning Tree說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW6/Dijkstra.md)
+    * [Minimum Spanning Tree](https://github.com/HTY62006/MyLearningNote/blob/master/HW6/Dijkstra_06170232.py)
 * **Week15:** Shortest Path
   * [作業六](https://github.com/HTY62006/MyLearningNote/blob/master/HW6)
+    * [Shortest Path說明](https://github.com/HTY62006/MyLearningNote/blob/master/HW6/Dijkstra.md)
+    * [Shortest Path](https://github.com/HTY62006/MyLearningNote/blob/master/HW6/Dijkstra_06170232.py)
 * **Week16:** 總複習
 * **Week17:** 期末考
 * **Week18:** 停課
@@ -96,3 +114,6 @@
 342 | [Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/342_Power%20of%20Four_06170232.py)
 ### CS50
 ## 課程心得
+　　經過這學期的課程，我覺得獲益良多，因為以前在寫程式時，遇到問題雖然也會上網查詢，但通常也只是，找到解決辦法，問題解決了，可是卻不一定能記住。也許下次遇到相同問題時，我又得重新找資料，那等於我浪費掉了那些我多花的時間。而在演算法的課程上，老師讓我們學會了如何自己思考，將自己理解到的邏輯轉化成程式碼，而不僅僅只是知道要怎麼寫才會是正確的。經自己思考並撰寫後，可以一次又一次的訓練自己將程式順利寫出來，不是一再的藉助別人現成的程式碼來解決問題，因為也許問題解決了，可是事實上自己並沒有搞明白問題是出現在哪。
+　　這學期花了大量的時間在演算法上，但也一次比一次的越來越進步，或許學期初的自己會覺得Quick Sort和Linked List之類的有難度，但漸漸的隨著練習的時間與次數增加，越來越熟悉也越來越上手。過去覺得很困難的東西，到了後期也能夠越來越順利的使用它們。雖然過程很辛苦、很累，但也相對的有獲得回報，這幫助了我更好的記住這些資料結構與演算法的概念。
+　　謝謝老師和助教這學期對我們的教導與付出。
