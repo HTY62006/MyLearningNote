@@ -14,6 +14,8 @@ N | O | P | Q | R | S | T | U | V | W | X | Y | Z
 演算法是為了以更快速、有效率的方式解決問題。
 
 這是影片中對於時間的比較：
+> 圖片源自CS50該單元的[簡報](http://cdn.cs50.net/2013/fall/lectures/0/w/week0w.pdf)
+
 ![image](https://images.plurk.com/3C5PpKih60IIkmfJWgWqXt.png)
 > 以電話簿為例
 >> n: 一次翻一頁
