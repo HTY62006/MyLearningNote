@@ -113,6 +113,9 @@
 326 | [Power of Three](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/326_Power%20of%20Three_06170232.py)
 342 | [Power of Four](https://github.com/HTY62006/MyLearningNote/blob/master/Leetcode/342_Power%20of%20Four_06170232.py)
 ### CS50
+* Week0:[二進位制、文字編碼、演算法和Pseudocode](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week0.md)
+* Week7:[Linked List](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week7.md)
+* Week8:[Stack, Queue, Tree and BST](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week8.md)
 ## 課程心得
 　　經過這學期的課程，我覺得獲益良多，因為以前在寫程式時，遇到問題雖然也會上網查詢，但通常也只是，找到解決辦法，問題解決了，可是卻不一定能記住。也許下次遇到相同問題時，我又得重新找資料，那等於我浪費掉了那些我多花的時間。而在演算法的課程上，老師讓我們學會了如何自己思考，將自己理解到的邏輯轉化成程式碼，而不僅僅只是知道要怎麼寫才會是正確的。經自己思考並撰寫後，可以一次又一次的訓練自己將程式順利寫出來，不是一再的藉助別人現成的程式碼來解決問題，因為也許問題解決了，可是事實上自己並沒有搞明白問題是出現在哪。
   
