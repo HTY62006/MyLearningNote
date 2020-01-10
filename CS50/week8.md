@@ -1,9 +1,9 @@
 # Week8
 ## Content
-* Stack
-* Queue
-* Tree
-* BST
+* [Stack](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week8.md#stack)
+* [Queue](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week8.md#queue)
+* [Tree](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week8.md#tree)
+* [BST](https://github.com/HTY62006/MyLearningNote/blob/master/CS50/week8.md#binary-search-treebst)
 ## Stack
 ### 觀念
 後進先出，常用功能有：插入(push)、移除(pop)、回傳最上方資料(top)、確認資料個數(getSize)和確認是否有資料(isEmpty)。
